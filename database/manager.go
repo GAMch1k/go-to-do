@@ -5,9 +5,44 @@ import (
 	"errors"
 	"os"
 	"log"
+	"fmt"
 
 	_ "github.com/mattn/go-sqlite3"
 )
+
+
+type db_field struct {
+	Name string
+	Type string
+	// IsPrimaryKey bool
+}
+
+
+func CheckIfTableExists(db *sql.DB, name string) bool {
+	log.Printf("Checking if table %s exists\n", name)
+	
+	query, err := db.Prepare("SELECT name FROM sqlite_master WHERE type='table' AND name=?")
+	
+	if err != nil {
+		log.Fatal(err.Error())
+	}
+	
+	defer query.Close()
+	
+	var output string
+	err = query.QueryRow(name).Scan(&output)
+	
+	if err == sql.ErrNoRows {
+		return false
+	}
+	
+	if err != nil {
+		log.Fatal(err.Error())
+	}
+	
+	return true
+	
+}
 
 
 func InitDatabase(path string) {
@@ -26,5 +61,65 @@ func InitDatabase(path string) {
 
 	sqliteDatabase, _ := sql.Open("sqlite3", path)
 	defer sqliteDatabase.Close()
+
+	if !CheckIfTableExists(sqliteDatabase, "tasks") {
+		fields := []db_field {
+			{
+				Name: "task_id",
+				Type: "INTEGER PRIMARY KEY AUTOINCREMENT",
+			},
+			{
+				Name: "text",
+				Type: "STRING",
+			},
+			{
+				Name: "done",
+				Type: "INTEGER DEFAULT 0",
+			},
+		}
+		CreateTable(sqliteDatabase, "users", fields)
+	}
+
+	log.Println("Database fully initialized!")
 }
 
+func RemoveElementFromFields(slice []db_field, s int) []db_field {
+	return append(slice[:s], slice[s+1:]...)
+}
+
+func CreateTable(db *sql.DB, name string, fields []db_field) {
+	if len(name) <= 0 {
+		log.Fatalf("Name of the table %s is empty", name)
+	}
+	
+	if len(fields) <= 0 {
+		log.Fatalf("Fields of the table %s is empty", name)
+	}
+	
+
+	log.Println("Creating new table", name)
+	
+	createTable := fmt.Sprintf(`CREATE TABLE IF NOT EXISTS "%s" (%s %s)`, name, fields[0].Name, fields[0].Type)
+	statement, err := db.Prepare(createTable)
+	if err != nil {
+		log.Fatal(err.Error())
+	}
+	statement.Exec()
+
+	fields = RemoveElementFromFields(fields, 0)
+
+	log.Println("Created new table:", name)
+	log.Println("Creating fields for table", name)
+	
+
+	for index, el := range fields {
+		log.Println(index)
+		createField := fmt.Sprintf("ALTER TABLE %s ADD %s %s", name, el.Name, el.Type)
+
+		statement, err := db.Prepare(createField)
+		if err != nil {
+			log.Fatal(err.Error())
+		}
+		statement.Exec()
+	}
+}

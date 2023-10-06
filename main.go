@@ -26,6 +26,5 @@ func get_env_variable(key string) string {
 
 func main() {
 	database.InitDatabase(get_env_variable("DATABASE_PATH"))
-	
 }
 
