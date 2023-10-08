@@ -14,7 +14,6 @@ import (
 type db_field struct {
 	Name string
 	Type string
-	// IsPrimaryKey bool
 }
 
 
@@ -77,7 +76,7 @@ func InitDatabase(path string) {
 				Type: "INTEGER DEFAULT 0",
 			},
 		}
-		CreateTable(sqliteDatabase, "users", fields)
+		CreateTable(sqliteDatabase, "tasks", fields)
 	}
 
 	log.Println("Database fully initialized!")
@@ -112,8 +111,8 @@ func CreateTable(db *sql.DB, name string, fields []db_field) {
 	log.Println("Creating fields for table", name)
 	
 
-	for index, el := range fields {
-		log.Println(index)
+	for _, el := range fields {
+		// log.Println(index)
 		createField := fmt.Sprintf("ALTER TABLE %s ADD %s %s", name, el.Name, el.Type)
 
 		statement, err := db.Prepare(createField)

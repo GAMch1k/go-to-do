@@ -1,0 +1,23 @@
+2023/10/09 00:57:19 Database in ./database/databases/database.db already exists 
+2023/10/09 00:57:19 Checking if table tasks exists
+2023/10/09 00:57:19 Database fully initialized!
+2023/10/09 00:57:37 Database in ./database/databases/database.db already exists 
+2023/10/09 00:57:37 Checking if table tasks exists
+2023/10/09 00:57:37 Database fully initialized!
+2023/10/09 00:57:51 Creating database file in ./database/databases/database.db
+2023/10/09 00:57:51 Database created in ./database/databases/database.db
+2023/10/09 00:57:51 Checking if table tasks exists
+2023/10/09 00:57:51 Creating new table tasks
+2023/10/09 00:57:51 Created new table: tasks
+2023/10/09 00:57:51 Creating fields for table tasks
+2023/10/09 00:57:51 Database fully initialized!
+2023/10/09 01:01:44 Database in ./database/databases/database.db already exists 
+2023/10/09 01:01:44 Checking if table tasks exists
+2023/10/09 01:01:44 Database fully initialized!
+2023/10/09 01:01:55 Creating database file in ./database/databases/database.db
+2023/10/09 01:01:55 Database created in ./database/databases/database.db
+2023/10/09 01:01:55 Checking if table tasks exists
+2023/10/09 01:01:55 Creating new table tasks
+2023/10/09 01:01:55 Created new table: tasks
+2023/10/09 01:01:55 Creating fields for table tasks
+2023/10/09 01:01:55 Database fully initialized!

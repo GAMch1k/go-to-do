@@ -2,12 +2,12 @@ package main
 
 import (
 	_ "errors"
-	"os"
+	"io"
 	"log"
+	"os"
 
 	"gamch1k.org/todo/database"
 
-	_ "github.com/mattn/go-sqlite3"
 	"github.com/joho/godotenv"
 )
 
@@ -24,7 +24,17 @@ func get_env_variable(key string) string {
 }
 
 
+
 func main() {
+	log_file, err := os.OpenFile("logs/logs.log", os.O_RDWR | os.O_CREATE | os.O_APPEND, 0666)
+	if err != nil {
+		log.Fatalf("error opening file: %v\n", err)
+	}
+	defer log_file.Close()
+	
+	mw := io.MultiWriter(os.Stdout, log_file)
+	log.SetOutput(mw)
+
 	database.InitDatabase(get_env_variable("DATABASE_PATH"))
 }
 
