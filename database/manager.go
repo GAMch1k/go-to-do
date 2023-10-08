@@ -11,10 +11,76 @@ import (
 )
 
 
-type db_field struct {
+type DB_field struct {
 	Name string
 	Type string
 }
+
+type Database_type struct {
+	db *sql.DB
+}
+
+
+func OpenDatabase(path string) (*Database_type) {
+	log.Println("Opening database file", path)
+	sqliteDatabase, err := sql.Open("sqlite3", path)
+
+	if err != nil {
+		log.Fatal(err.Error())
+	}
+
+	return &Database_type{
+		db: sqliteDatabase,
+	}
+}
+
+
+func InitDatabase(path string) {
+	if _, err := os.Stat(path); errors.Is(err, os.ErrNotExist) {
+		log.Println("Creating database file in", path)
+		
+		file, err := os.Create(path)
+		if err != nil {
+			log.Fatal(err.Error())
+		}
+		file.Close()
+		log.Println("Database created in", path)
+		} else {
+			log.Printf("Database in %s already exists \n", path)
+	}
+
+
+	sqliteDatabase := OpenDatabase(path).db
+	defer CloseDatabase(sqliteDatabase)
+	
+
+	if !CheckIfTableExists(sqliteDatabase, "tasks") {
+		fields := []DB_field {
+			{
+				Name: "task_id",
+				Type: "INTEGER PRIMARY KEY AUTOINCREMENT",
+			},
+			{
+				Name: "text",
+				Type: "STRING",
+			},
+			{
+				Name: "done",
+				Type: "INTEGER DEFAULT 0",
+			},
+		}
+		CreateTable(sqliteDatabase, "tasks", fields)
+	}
+	
+	log.Println("Database fully initialized!")
+}
+
+
+func CloseDatabase(db *sql.DB) {
+	db.Close()
+	log.Println("Database closed")
+}
+
 
 
 func CheckIfTableExists(db *sql.DB, name string) bool {
@@ -44,49 +110,12 @@ func CheckIfTableExists(db *sql.DB, name string) bool {
 }
 
 
-func InitDatabase(path string) {
-	if _, err := os.Stat(path); errors.Is(err, os.ErrNotExist) {
-		log.Println("Creating database file in", path)
-		
-		file, err := os.Create(path)
-		if err != nil {
-			log.Fatal(err.Error())
-		}
-		file.Close()
-		log.Println("Database created in", path)
-	} else {
-		log.Printf("Database in %s already exists \n", path)
-	}
-
-	sqliteDatabase, _ := sql.Open("sqlite3", path)
-	defer sqliteDatabase.Close()
-
-	if !CheckIfTableExists(sqliteDatabase, "tasks") {
-		fields := []db_field {
-			{
-				Name: "task_id",
-				Type: "INTEGER PRIMARY KEY AUTOINCREMENT",
-			},
-			{
-				Name: "text",
-				Type: "STRING",
-			},
-			{
-				Name: "done",
-				Type: "INTEGER DEFAULT 0",
-			},
-		}
-		CreateTable(sqliteDatabase, "tasks", fields)
-	}
-
-	log.Println("Database fully initialized!")
-}
-
-func RemoveElementFromFields(slice []db_field, s int) []db_field {
+func RemoveElementFromFields(slice []DB_field, s int) []DB_field {
 	return append(slice[:s], slice[s+1:]...)
 }
 
-func CreateTable(db *sql.DB, name string, fields []db_field) {
+
+func CreateTable(db *sql.DB, name string, fields []DB_field) {
 	if len(name) <= 0 {
 		log.Fatalf("Name of the table %s is empty", name)
 	}

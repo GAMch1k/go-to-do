@@ -14,6 +14,7 @@ import (
 
 
 func get_env_variable(key string) string {
+	log.Println("Loading .env file")
 	err := godotenv.Load(".env")
 
 	if err != nil {

@@ -21,3 +21,39 @@
 2023/10/09 01:01:55 Created new table: tasks
 2023/10/09 01:01:55 Creating fields for table tasks
 2023/10/09 01:01:55 Database fully initialized!
+2023/10/09 01:12:39 Database in ./database/databases/database.db already exists 
+2023/10/09 01:12:39 Checking if table tasks exists
+2023/10/09 01:12:39 sql: database is closed
+2023/10/09 01:18:04 Database in ./database/databases/database.db already exists 
+2023/10/09 01:18:04 Checking if table tasks exists
+2023/10/09 01:18:04 sql: database is closed
+2023/10/09 01:22:32 Database in ./database/databases/database.db already exists 
+2023/10/09 01:22:32 Checking if table tasks exists
+2023/10/09 01:22:32 Database fully initialized!
+2023/10/09 01:22:46 Creating database file in ./database/databases/database.db
+2023/10/09 01:22:46 Database created in ./database/databases/database.db
+2023/10/09 01:22:46 Checking if table tasks exists
+2023/10/09 01:22:46 Creating new table tasks
+2023/10/09 01:22:46 Created new table: tasks
+2023/10/09 01:22:46 Creating fields for table tasks
+2023/10/09 01:22:46 Database fully initialized!
+2023/10/09 01:24:14 Database in ./database/databases/database.db already exists 
+2023/10/09 01:24:14 Checking if table tasks exists
+2023/10/09 01:24:14 Database fully initialized!
+2023/10/09 01:24:25 Creating database file in ./database/databases/database.db
+2023/10/09 01:24:25 Database created in ./database/databases/database.db
+2023/10/09 01:24:25 Checking if table tasks exists
+2023/10/09 01:24:25 Creating new table tasks
+2023/10/09 01:24:25 Created new table: tasks
+2023/10/09 01:24:25 Creating fields for table tasks
+2023/10/09 01:24:25 Database fully initialized!
+2023/10/09 01:27:54 Database in ./database/databases/database.db already exists 
+2023/10/09 01:27:54 Opening database file ./database/databases/database.db
+2023/10/09 01:27:54 Checking if table tasks exists
+2023/10/09 01:27:54 Database fully initialized!
+2023/10/09 01:27:54 Database closed
+2023/10/09 01:29:11 Database in ./database/databases/database.db already exists 
+2023/10/09 01:29:11 Opening database file ./database/databases/database.db
+2023/10/09 01:29:11 Checking if table tasks exists
+2023/10/09 01:29:11 Database fully initialized!
+2023/10/09 01:29:11 Database closed
