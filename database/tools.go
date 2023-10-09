@@ -8,9 +8,9 @@ import (
 
 
 type Task struct {
-	id int
-	text string
-	done int
+	Id int `json:"id"`
+	Text string `json:"text"`
+	Done int `json:"done"`
 } 
 
 
@@ -56,9 +56,9 @@ func GetTasks(path string) []Task {
 		row.Scan(&id, &text, &done)
 
 		final = append(final, Task{
-			id: id,
-			text: text,
-			done: done,
+			Id: id,
+			Text: text,
+			Done: done,
 		})
 	}
 

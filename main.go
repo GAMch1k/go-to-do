@@ -2,29 +2,15 @@ package main
 
 import (
 	_ "errors"
+	_ "fmt"
 	"io"
 	"log"
 	"os"
 
 	"gamch1k.org/todo/database"
+	env_manager "gamch1k.org/todo/envmanager"
 	"gamch1k.org/todo/server"
-
-	"github.com/joho/godotenv"
 )
-
-
-
-func get_env_variable(key string) string {
-	log.Println("Loading .env file")
-	err := godotenv.Load(".env")
-
-	if err != nil {
-		log.Fatalf("Error loading .env file")
-	}
-	
-	return os.Getenv(key)
-}
-
 
 
 func main() {
@@ -37,14 +23,14 @@ func main() {
 	mw := io.MultiWriter(os.Stdout, log_file)
 	log.SetOutput(mw)
 
-	db_path := get_env_variable("DATABASE_PATH")
+	db_path := env_manager.GetEnvVariable("DATABASE_PATH")
 
 	database.InitDatabase(db_path)
 
-	database.InsertTask(db_path, "Some test text")
+	// database.InsertTask(db_path, "Some test text")
 
-	database.GetTasks(db_path)
+	// fmt.Println(database.GetTasks(db_path))
 
-	server.Start("localhost:" + get_env_variable("PORT"))
+	server.Start("localhost:" + env_manager.GetEnvVariable("PORT"))
 }
 

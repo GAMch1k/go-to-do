@@ -157,3 +157,253 @@
 2023/10/09 02:19:55 Starting server on localhost:3000
 2023/10/09 02:20:09 API get tasks request
 2023/10/09 02:20:15 API get tasks request
+2023/10/09 02:29:25 Loading .env file
+2023/10/09 02:29:25 Database in ./database/databases/database.db already exists
+2023/10/09 02:29:25 Opening database file ./database/databases/database.db
+2023/10/09 02:29:25 Checking if table tasks exist
+2023/10/09 02:29:25 Database fully initialized!
+2023/10/09 02:29:25 Database closed
+2023/10/09 02:29:25 Opening database file ./database/databases/database.db
+2023/10/09 02:29:25 Inserting Some test text to the ./database/databases/database.db (tasks table)
+2023/10/09 02:29:25 Task succesfully inserted
+2023/10/09 02:29:25 Database closed
+2023/10/09 02:29:25 Opening database file ./database/databases/database.db
+2023/10/09 02:29:25 Database closed
+2023/10/09 02:29:25 Loading .env file
+2023/10/09 02:29:25 Starting server on localhost:3000
+2023/10/09 02:29:29 API get tasks request
+2023/10/09 02:29:29 Loading .env file
+2023/10/09 02:29:29 Opening database file ./database/databases/database.db
+2023/10/09 02:29:29 Database closed
+2023/10/09 02:30:15 Loading .env file
+2023/10/09 02:30:15 Database in ./database/databases/database.db already exists
+2023/10/09 02:30:15 Opening database file ./database/databases/database.db
+2023/10/09 02:30:15 Checking if table tasks exist
+2023/10/09 02:30:15 Database fully initialized!
+2023/10/09 02:30:15 Database closed
+2023/10/09 02:30:15 Opening database file ./database/databases/database.db
+2023/10/09 02:30:15 Inserting Some test text to the ./database/databases/database.db (tasks table)
+2023/10/09 02:30:15 Task succesfully inserted
+2023/10/09 02:30:15 Database closed
+2023/10/09 02:30:15 Opening database file ./database/databases/database.db
+2023/10/09 02:30:15 Database closed
+2023/10/09 02:30:15 Loading .env file
+2023/10/09 02:30:15 Starting server on localhost:3000
+2023/10/09 02:30:18 API get tasks request
+2023/10/09 02:30:18 Loading .env file
+2023/10/09 02:30:18 Opening database file ./database/databases/database.db
+2023/10/09 02:30:18 Database closed
+2023/10/09 02:31:08 Loading .env file
+2023/10/09 02:31:08 Database in ./database/databases/database.db already exists
+2023/10/09 02:31:08 Opening database file ./database/databases/database.db
+2023/10/09 02:31:08 Checking if table tasks exist
+2023/10/09 02:31:08 Database fully initialized!
+2023/10/09 02:31:08 Database closed
+2023/10/09 02:31:08 Opening database file ./database/databases/database.db
+2023/10/09 02:31:08 Inserting Some test text to the ./database/databases/database.db (tasks table)
+2023/10/09 02:31:08 Task succesfully inserted
+2023/10/09 02:31:08 Database closed
+2023/10/09 02:31:08 Opening database file ./database/databases/database.db
+2023/10/09 02:31:08 Database closed
+2023/10/09 02:31:08 Loading .env file
+2023/10/09 02:31:08 Starting server on localhost:3000
+2023/10/09 02:31:10 API get tasks request
+2023/10/09 02:31:10 Loading .env file
+2023/10/09 02:31:10 Opening database file ./database/databases/database.db
+2023/10/09 02:31:10 Database closed
+2023/10/09 02:32:28 Loading .env file
+2023/10/09 02:32:28 Database in ./database/databases/database.db already exists
+2023/10/09 02:32:28 Opening database file ./database/databases/database.db
+2023/10/09 02:32:28 Checking if table tasks exist
+2023/10/09 02:32:28 Database fully initialized!
+2023/10/09 02:32:28 Database closed
+2023/10/09 02:32:28 Opening database file ./database/databases/database.db
+2023/10/09 02:32:28 Inserting Some test text to the ./database/databases/database.db (tasks table)
+2023/10/09 02:32:28 Task succesfully inserted
+2023/10/09 02:32:28 Database closed
+2023/10/09 02:32:28 Opening database file ./database/databases/database.db
+2023/10/09 02:32:28 Database closed
+2023/10/09 02:32:28 Loading .env file
+2023/10/09 02:32:28 Starting server on localhost:3000
+2023/10/09 02:32:30 API get tasks request
+2023/10/09 02:32:30 Loading .env file
+2023/10/09 02:32:30 Opening database file ./database/databases/database.db
+2023/10/09 02:32:30 Database closed
+2023/10/09 02:33:34 Loading .env file
+2023/10/09 02:33:34 Database in ./database/databases/database.db already exists
+2023/10/09 02:33:34 Opening database file ./database/databases/database.db
+2023/10/09 02:33:34 Checking if table tasks exist
+2023/10/09 02:33:34 Database fully initialized!
+2023/10/09 02:33:34 Database closed
+2023/10/09 02:33:34 Opening database file ./database/databases/database.db
+2023/10/09 02:33:34 Database closed
+2023/10/09 02:33:34 Loading .env file
+2023/10/09 02:33:34 Starting server on localhost:3000
+2023/10/09 02:33:57 Loading .env file
+2023/10/09 02:33:57 Database in ./database/databases/database.db already exists
+2023/10/09 02:33:57 Opening database file ./database/databases/database.db
+2023/10/09 02:33:57 Checking if table tasks exist
+2023/10/09 02:33:57 Database fully initialized!
+2023/10/09 02:33:57 Database closed
+2023/10/09 02:33:57 Opening database file ./database/databases/database.db
+2023/10/09 02:33:57 Database closed
+2023/10/09 02:33:57 Loading .env file
+2023/10/09 02:33:57 Starting server on localhost:3000
+2023/10/09 02:33:59 API get tasks request
+2023/10/09 02:33:59 Loading .env file
+2023/10/09 02:33:59 Opening database file ./database/databases/database.db
+2023/10/09 02:33:59 Database closed
+2023/10/09 02:34:44 Loading .env file
+2023/10/09 02:34:44 Database in ./database/databases/database.db already exists
+2023/10/09 02:34:44 Opening database file ./database/databases/database.db
+2023/10/09 02:34:44 Checking if table tasks exist
+2023/10/09 02:34:44 Database fully initialized!
+2023/10/09 02:34:44 Database closed
+2023/10/09 02:34:44 Opening database file ./database/databases/database.db
+2023/10/09 02:34:44 Database closed
+2023/10/09 02:34:44 Loading .env file
+2023/10/09 02:34:44 Starting server on localhost:3000
+2023/10/09 02:34:46 API get tasks request
+2023/10/09 02:34:46 Loading .env file
+2023/10/09 02:34:46 Opening database file ./database/databases/database.db
+2023/10/09 02:34:46 Database closed
+2023/10/09 02:35:03 Loading .env file
+2023/10/09 02:35:03 Database in ./database/databases/database.db already exists
+2023/10/09 02:35:03 Opening database file ./database/databases/database.db
+2023/10/09 02:35:03 Checking if table tasks exist
+2023/10/09 02:35:03 Database fully initialized!
+2023/10/09 02:35:03 Database closed
+2023/10/09 02:35:03 Opening database file ./database/databases/database.db
+2023/10/09 02:35:03 Database closed
+2023/10/09 02:35:03 Loading .env file
+2023/10/09 02:35:03 Starting server on localhost:3000
+2023/10/09 02:35:04 API get tasks request
+2023/10/09 02:35:04 Loading .env file
+2023/10/09 02:35:04 Opening database file ./database/databases/database.db
+2023/10/09 02:35:04 Database closed
+2023/10/09 02:37:27 Loading .env file
+2023/10/09 02:37:27 Database in ./database/databases/database.db already exists
+2023/10/09 02:37:27 Opening database file ./database/databases/database.db
+2023/10/09 02:37:27 Checking if table tasks exist
+2023/10/09 02:37:27 Database fully initialized!
+2023/10/09 02:37:27 Database closed
+2023/10/09 02:37:27 Opening database file ./database/databases/database.db
+2023/10/09 02:37:27 Database closed
+2023/10/09 02:37:27 Loading .env file
+2023/10/09 02:37:27 Starting server on localhost:3000
+2023/10/09 02:37:29 API get tasks request
+2023/10/09 02:37:29 Loading .env file
+2023/10/09 02:37:29 Opening database file ./database/databases/database.db
+2023/10/09 02:37:29 Database closed
+2023/10/09 02:38:57 Loading .env file
+2023/10/09 02:38:57 Database in ./database/databases/database.db already exists
+2023/10/09 02:38:57 Opening database file ./database/databases/database.db
+2023/10/09 02:38:57 Checking if table tasks exist
+2023/10/09 02:38:57 Database fully initialized!
+2023/10/09 02:38:57 Database closed
+2023/10/09 02:38:57 Opening database file ./database/databases/database.db
+2023/10/09 02:38:57 Database closed
+2023/10/09 02:38:57 Loading .env file
+2023/10/09 02:38:57 Starting server on localhost:3000
+2023/10/09 02:39:01 API get tasks request
+2023/10/09 02:39:01 Loading .env file
+2023/10/09 02:39:01 Opening database file ./database/databases/database.db
+2023/10/09 02:39:01 Database closed
+2023/10/09 02:39:01 [{1 Some test text 0} {2 Some test text 0} {3 Some test text 0} {4 hbjhbbhjbhj 0} {5 Some test text 0} {6 Some test text 0} {7 Some test text 0} {8 Some test text 0} {9 Some test text 0} {10 Some test text 0} {11 Some test text 0}]
+2023/10/09 02:39:01 [{},{},{},{},{},{},{},{},{},{},{}]
+2023/10/09 02:41:13 Loading .env file
+2023/10/09 02:41:13 Database in ./database/databases/database.db already exists
+2023/10/09 02:41:13 Opening database file ./database/databases/database.db
+2023/10/09 02:41:13 Checking if table tasks exist
+2023/10/09 02:41:13 Database fully initialized!
+2023/10/09 02:41:13 Database closed
+2023/10/09 02:41:13 Opening database file ./database/databases/database.db
+2023/10/09 02:41:13 Database closed
+2023/10/09 02:41:13 Loading .env file
+2023/10/09 02:41:13 Starting server on localhost:3000
+2023/10/09 02:41:20 API get tasks request
+2023/10/09 02:41:20 Loading .env file
+2023/10/09 02:41:20 Opening database file ./database/databases/database.db
+2023/10/09 02:41:20 Database closed
+2023/10/09 02:41:20 [{1 Some test text 0} {2 Some test text 0} {3 Some test text 0} {4 hbjhbbhjbhj 0} {5 Some test text 0} {6 Some test text 0} {7 Some test text 0} {8 Some test text 0} {9 Some test text 0} {10 Some test text 0} {11 Some test text 0}]
+2023/10/09 02:41:20 [{},{},{},{},{},{},{},{},{},{},{}]
+2023/10/09 02:42:46 Loading .env file
+2023/10/09 02:42:46 Database in ./database/databases/database.db already exists
+2023/10/09 02:42:46 Opening database file ./database/databases/database.db
+2023/10/09 02:42:46 Checking if table tasks exist
+2023/10/09 02:42:46 Database fully initialized!
+2023/10/09 02:42:46 Database closed
+2023/10/09 02:42:46 Opening database file ./database/databases/database.db
+2023/10/09 02:42:46 Database closed
+2023/10/09 02:42:46 Loading .env file
+2023/10/09 02:42:46 Starting server on localhost:3000
+2023/10/09 02:42:47 API get tasks request
+2023/10/09 02:42:47 Loading .env file
+2023/10/09 02:42:47 Opening database file ./database/databases/database.db
+2023/10/09 02:42:47 Database closed
+2023/10/09 02:42:47 [{1 Some test text 0} {2 Some test text 0} {3 Some test text 0} {4 hbjhbbhjbhj 0} {5 Some test text 0} {6 Some test text 0} {7 Some test text 0} {8 Some test text 0} {9 Some test text 0} {10 Some test text 0} {11 Some test text 0}]
+2023/10/09 02:42:47 [{},{},{},{},{},{},{},{},{},{},{}]
+2023/10/09 02:42:50 API get tasks request
+2023/10/09 02:42:50 Loading .env file
+2023/10/09 02:42:50 Opening database file ./database/databases/database.db
+2023/10/09 02:42:50 Database closed
+2023/10/09 02:42:50 [{1 Some test text 0} {2 Some test text 0} {3 Some test text 0} {4 hbjhbbhjbhj 0} {5 Some test text 0} {6 Some test text 0} {7 Some test text 0} {8 Some test text 0} {9 Some test text 0} {10 Some test text 0} {11 Some test text 0}]
+2023/10/09 02:42:50 [{},{},{},{},{},{},{},{},{},{},{}]
+2023/10/09 02:44:09 Loading .env file
+2023/10/09 02:44:09 Database in ./database/databases/database.db already exists
+2023/10/09 02:44:09 Opening database file ./database/databases/database.db
+2023/10/09 02:44:09 Checking if table tasks exist
+2023/10/09 02:44:09 Database fully initialized!
+2023/10/09 02:44:09 Database closed
+2023/10/09 02:44:09 Opening database file ./database/databases/database.db
+2023/10/09 02:44:09 Database closed
+2023/10/09 02:44:09 Loading .env file
+2023/10/09 02:44:09 Starting server on localhost:3000
+2023/10/09 02:44:12 API get tasks request
+2023/10/09 02:44:12 Loading .env file
+2023/10/09 02:44:12 Opening database file ./database/databases/database.db
+2023/10/09 02:44:12 Database closed
+2023/10/09 02:44:12 [{1 Some test text 0} {2 Some test text 0} {3 Some test text 0} {4 hbjhbbhjbhj 0} {5 Some test text 0} {6 Some test text 0} {7 Some test text 0} {8 Some test text 0} {9 Some test text 0} {10 Some test text 0} {11 Some test text 0}]
+2023/10/09 02:44:12 [{"id":1,"text":"Some test text","done":0},{"id":2,"text":"Some test text","done":0},{"id":3,"text":"Some test text","done":0},{"id":4,"text":"hbjhbbhjbhj","done":0},{"id":5,"text":"Some test text","done":0},{"id":6,"text":"Some test text","done":0},{"id":7,"text":"Some test text","done":0},{"id":8,"text":"Some test text","done":0},{"id":9,"text":"Some test text","done":0},{"id":10,"text":"Some test text","done":0},{"id":11,"text":"Some test text","done":0}]
+2023/10/09 02:44:56 Loading .env file
+2023/10/09 02:44:56 Creating database file in ./database/databases/database.db
+2023/10/09 02:44:56 Database created in ./database/databases/database.db
+2023/10/09 02:44:56 Opening database file ./database/databases/database.db
+2023/10/09 02:44:56 Checking if table tasks exist
+2023/10/09 02:44:56 Creating new table tasks
+2023/10/09 02:44:56 Created new table: tasks
+2023/10/09 02:44:56 Creating fields for table tasks
+2023/10/09 02:44:56 Database fully initialized!
+2023/10/09 02:44:56 Database closed
+2023/10/09 02:44:56 Opening database file ./database/databases/database.db
+2023/10/09 02:44:56 Inserting Some test text to the ./database/databases/database.db (tasks table)
+2023/10/09 02:44:56 Task succesfully inserted
+2023/10/09 02:44:56 Database closed
+2023/10/09 02:44:56 Opening database file ./database/databases/database.db
+2023/10/09 02:44:56 Inserting Some test text to the ./database/databases/database.db (tasks table)
+2023/10/09 02:44:56 Task succesfully inserted
+2023/10/09 02:44:56 Database closed
+2023/10/09 02:44:56 Opening database file ./database/databases/database.db
+2023/10/09 02:44:56 Inserting Some test text to the ./database/databases/database.db (tasks table)
+2023/10/09 02:44:56 Task succesfully inserted
+2023/10/09 02:44:56 Database closed
+2023/10/09 02:44:56 Opening database file ./database/databases/database.db
+2023/10/09 02:44:56 Inserting Some test text to the ./database/databases/database.db (tasks table)
+2023/10/09 02:44:56 Task succesfully inserted
+2023/10/09 02:44:56 Database closed
+2023/10/09 02:44:56 Loading .env file
+2023/10/09 02:44:56 Starting server on localhost:3000
+2023/10/09 02:45:11 Loading .env file
+2023/10/09 02:45:11 Database in ./database/databases/database.db already exists
+2023/10/09 02:45:11 Opening database file ./database/databases/database.db
+2023/10/09 02:45:11 Checking if table tasks exist
+2023/10/09 02:45:11 Database fully initialized!
+2023/10/09 02:45:11 Database closed
+2023/10/09 02:45:11 Loading .env file
+2023/10/09 02:45:11 Starting server on localhost:3000
+2023/10/09 02:45:13 API get tasks request
+2023/10/09 02:45:13 Loading .env file
+2023/10/09 02:45:13 Opening database file ./database/databases/database.db
+2023/10/09 02:45:13 Database closed
+2023/10/09 02:45:13 [{1 Some test text 0} {2 Some test text 0} {3 Some test text 0} {4 Some test text 0}]
+2023/10/09 02:45:13 [{"id":1,"text":"Some test text","done":0},{"id":2,"text":"Some test text","done":0},{"id":3,"text":"Some test text","done":0},{"id":4,"text":"Some test text","done":0}]
