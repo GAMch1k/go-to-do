@@ -12,32 +12,39 @@ type Task struct {
 	Id int `json:"id"`
 	Text string `json:"text"`
 	Done int `json:"done"`
-} 
+}
 
 
-func InsertTask(path string, text string) {
-	db := OpenDatabase(path).db
+func InsertTask(text string) (bool, error) {
+	db := OpenDatabase()
 	defer CloseDatabase(db)
 
-	log.Printf("Inserting %s to the %s (tasks table)", text, path)
+	log.Printf("Inserting %s to the tasks table", text)
 
 	insert_text := `INSERT INTO tasks(text) VALUES (?)`
 
 	query, err := db.Prepare(insert_text)
 	if err != nil {
-		log.Fatal(err.Error())
+		log.SetPrefix("ERROR ")
+		log.Println(err.Error())
+		log.SetPrefix("")
+		return false, err
 	}
 	_, err = query.Exec(text)
 	if err != nil {
-		log.Fatal(err.Error())
+		log.SetPrefix("ERROR ")
+		log.Println(err.Error())
+		log.SetPrefix("")
+		return false, err
 	}
 
 	log.Println("Task succesfully inserted")
+	return true, errors.New("")
 }
 
 
-func GetTasks(path string) []Task {
-	db := OpenDatabase(path).db
+func GetTasks() []Task {
+	db := OpenDatabase()
 	defer CloseDatabase(db)
 
 	row, err := db.Query("SELECT * FROM tasks")
@@ -67,8 +74,8 @@ func GetTasks(path string) []Task {
 }
 
 
-func GetTaskById(path string, id int) Task {
-	db := OpenDatabase(path).db
+func GetTaskById(id int) Task {
+	db := OpenDatabase()
 	defer CloseDatabase(db)
 
 	var task Task
@@ -88,8 +95,8 @@ func GetTaskById(path string, id int) Task {
 }
 
 
-func CheckTaskExist(path string, id int) bool {
-	res := GetTaskById(path, id)
+func CheckTaskExist(id int) bool {
+	res := GetTaskById(id)
 	
 	if res.Id == 0 {
 		log.Printf("Task with id %d does not exist", id)
@@ -99,11 +106,11 @@ func CheckTaskExist(path string, id int) bool {
 }
 
 
-func UpdateTaskDone(path string, id int, status bool) {
+func UpdateTaskDone(id int, status bool) (bool, error) {
 
-	if !CheckTaskExist(path, id) { return }
+	if !CheckTaskExist(id) { return false, errors.New("") }
 
-	db := OpenDatabase(path).db
+	db := OpenDatabase()
 	defer CloseDatabase(db)
 
 	log.Printf("Changing task with id %d to %t (tasks table)", id, status)
@@ -112,21 +119,28 @@ func UpdateTaskDone(path string, id int, status bool) {
 
 	query, err := db.Prepare(query_text)
 	if err != nil {
-		log.Fatal(err.Error())
+		log.SetPrefix("ERROR ")
+		log.Println(err.Error())
+		log.SetPrefix("")
+		return false, err
 	}
 	_, err = query.Exec(status, id)
 	if err != nil {
-		log.Fatal(err.Error())
+		log.SetPrefix("ERROR ")
+		log.Println(err.Error())
+		log.SetPrefix("")
+		return false, err
 	}
 
 	log.Println("Task succesfully updated")
+	return true, errors.New("")
 }
 
-func DeleteTaskById(path string, id int) (bool, error) {
+func DeleteTaskById(id int) (bool, error) {
 
-	if !CheckTaskExist(path, id) { return false, errors.New("Task does not exists") }
+	if !CheckTaskExist(id) { return false, errors.New("Task does not exists") }
 
-	db := OpenDatabase(path).db
+	db := OpenDatabase()
 	defer CloseDatabase(db)
 
 	log.Println("Deleting task with id", id)

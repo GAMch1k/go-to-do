@@ -1467,3 +1467,41 @@ ERROR 2023/10/09 13:09:48 near "FORM": syntax error
 2023/10/09 13:10:07 Deleting task with id 4
 ERROR 2023/10/09 13:10:07 near "FORM": syntax error
 2023/10/09 13:10:07 Database closed
+2023/10/09 23:15:10 ----------- PROGRAM STARTED -----------
+2023/10/09 23:15:10 Loading .env file
+2023/10/09 23:15:10 Database in ./database/databases/database.db already exists
+2023/10/09 23:15:10 Opening database file ./database/databases/database.db
+2023/10/09 23:15:10 Checking if table tasks exist
+2023/10/09 23:15:10 Database fully initialized!
+2023/10/09 23:15:10 Database closed
+2023/10/09 23:15:10 Loading .env file
+2023/10/09 23:15:10 Starting server on localhost:3000
+2023/10/09 23:24:17 ----------- PROGRAM STARTED -----------
+2023/10/09 23:24:17 Loading .env file
+2023/10/09 23:24:17 Database in ./database/databases/database.db already exists
+2023/10/09 23:24:17 Loading .env file
+2023/10/09 23:24:17 Opening database file ./database/databases/database.db
+2023/10/09 23:24:17 Checking if table tasks exist
+2023/10/09 23:24:17 Database fully initialized!
+2023/10/09 23:24:17 Database closed
+2023/10/09 23:24:17 Loading .env file
+2023/10/09 23:24:17 Starting server on localhost:3000
+2023/10/09 23:24:44 API get tasks request
+2023/10/09 23:24:44 Loading .env file
+2023/10/09 23:24:44 Opening database file ./database/databases/database.db
+2023/10/09 23:24:44 Database closed
+2023/10/09 23:24:44 [{2 Some test text 0} {3 Some test text 0} {4 Some test text 0} {6 tasktext 0} {8 tasktext 0} {9 tasktext 0} {10 tasktext 0}]
+2023/10/09 23:24:44 Tasks data converted to JSON
+2023/10/09 23:24:44 Sent JSON data
+2023/10/09 23:24:57 Loading .env file
+2023/10/09 23:24:57 Opening database file ./database/databases/database.db
+2023/10/09 23:24:57 Inserting tasddssd to the tasks table
+2023/10/09 23:24:57 Task succesfully inserted
+2023/10/09 23:24:57 Database closed
+2023/10/09 23:25:03 API get tasks request
+2023/10/09 23:25:03 Loading .env file
+2023/10/09 23:25:03 Opening database file ./database/databases/database.db
+2023/10/09 23:25:03 Database closed
+2023/10/09 23:25:03 [{2 Some test text 0} {3 Some test text 0} {4 Some test text 0} {6 tasktext 0} {8 tasktext 0} {9 tasktext 0} {10 tasktext 0} {12 tasddssd 0}]
+2023/10/09 23:25:03 Tasks data converted to JSON
+2023/10/09 23:25:03 Sent JSON data

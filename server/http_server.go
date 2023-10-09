@@ -10,7 +10,6 @@ import (
 	"strconv"
 
 	"gamch1k.org/todo/database"
-	env_manager "gamch1k.org/todo/envmanager"
 )
 
 type JSONtasks struct {
@@ -26,7 +25,7 @@ type ResponseStatus struct {
 func api_get_tasks(w http.ResponseWriter, r *http.Request) {
 	log.Println("API get tasks request")
 
-	tasks_arr := database.GetTasks(env_manager.GetEnvVariable("DATABASE_PATH"))
+	tasks_arr := database.GetTasks()
 
 	log.Println(tasks_arr)
 
@@ -44,12 +43,19 @@ func api_post_task(w http.ResponseWriter, r *http.Request) {
 	var status ResponseStatus
 
 	if text != "" {
-		db_path := env_manager.GetEnvVariable("DATABASE_PATH")
-		database.InsertTask(db_path, text)
-		status = ResponseStatus{
-			Status: 200,
-			Success: true,
-			Error_msg: "",
+		res, err := database.InsertTask(text)
+		if res {
+			status = ResponseStatus{
+				Status: 200,
+				Success: true,
+				Error_msg: "",
+			}
+		} else {
+			status = ResponseStatus{
+				Status: 400,
+				Success: false,
+				Error_msg: "something went wrong: " + err.Error(),
+			}
 		}
 	} else {
 		log.Println("Text parameter is empty")
@@ -80,13 +86,22 @@ func api_update_task(w http.ResponseWriter, r *http.Request) {
 			status_bool = false
 		}
 
-		db_path := env_manager.GetEnvVariable("DATABASE_PATH")
-		database.UpdateTaskDone(db_path, id_int, status_bool)
-		status = ResponseStatus{
-			Status: 200,
-			Success: true,
-			Error_msg: "",
+		res, err := database.UpdateTaskDone(id_int, status_bool)
+
+		if res {
+			status = ResponseStatus{
+				Status: 200,
+				Success: true,
+				Error_msg: "",
+			}
+		} else {
+			status = ResponseStatus{
+				Status: 400,
+				Success: false,
+				Error_msg: "something went wrong: " + err.Error(),
+			}
 		}
+		
 	} else {
 		log.Println("Some parameters are missing")
 		status = ResponseStatus{
@@ -107,11 +122,10 @@ func api_delete_task(w http.ResponseWriter, r *http.Request) {
 	var status ResponseStatus
 
 	if id != "" {
-		db_path := env_manager.GetEnvVariable("DATABASE_PATH")
 		id_int, _ := strconv.Atoi(id)
-		del, err := database.DeleteTaskById(db_path, id_int)
+		res, err := database.DeleteTaskById(id_int)
 		
-		if del {
+		if res {
 			status = ResponseStatus{
 				Status: 200,
 				Success: true,

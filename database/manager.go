@@ -8,6 +8,8 @@ import (
 	"fmt"
 
 	_ "github.com/mattn/go-sqlite3"
+
+	env_manager "gamch1k.org/todo/envmanager"
 )
 
 
@@ -16,12 +18,11 @@ type DB_field struct {
 	Type string
 }
 
-type Database_type struct {
-	db *sql.DB
-}
 
+func OpenDatabase() *sql.DB {
 
-func OpenDatabase(path string) (*Database_type) {
+	path := env_manager.GetEnvVariable("DATABASE_PATH")
+
 	log.Println("Opening database file", path)
 	sqliteDatabase, err := sql.Open("sqlite3", path)
 
@@ -29,13 +30,12 @@ func OpenDatabase(path string) (*Database_type) {
 		log.Fatal(err.Error())
 	}
 
-	return &Database_type{
-		db: sqliteDatabase,
-	}
+	return sqliteDatabase
 }
 
 
-func InitDatabase(path string) {
+func InitDatabase() {
+	path := env_manager.GetEnvVariable("DATABASE_PATH")
 	if _, err := os.Stat(path); errors.Is(err, os.ErrNotExist) {
 		log.Println("Creating database file in", path)
 		
@@ -50,7 +50,7 @@ func InitDatabase(path string) {
 	}
 
 
-	sqliteDatabase := OpenDatabase(path).db
+	sqliteDatabase := OpenDatabase()
 	defer CloseDatabase(sqliteDatabase)
 	
 

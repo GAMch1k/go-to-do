@@ -24,9 +24,7 @@ func main() {
 
 	log.Println("----------- PROGRAM STARTED -----------")
 
-	db_path := env_manager.GetEnvVariable("DATABASE_PATH")
-
-	database.InitDatabase(db_path)
+	database.InitDatabase()
 
 	// database.InsertTask(db_path, "Some test text")
 
