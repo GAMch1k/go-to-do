@@ -23,6 +23,8 @@ func main() {
 	mw := io.MultiWriter(os.Stdout, log_file)
 	log.SetOutput(mw)
 
+	log.Println("----------- PROGRAM STARTED -----------")
+
 	db_path := env_manager.GetEnvVariable("DATABASE_PATH")
 
 	database.InitDatabase(db_path)
@@ -32,5 +34,7 @@ func main() {
 	// fmt.Println(database.GetTasks(db_path))
 
 	server.Start("localhost:" + env_manager.GetEnvVariable("PORT"))
+
+	
 }
 
