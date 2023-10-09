@@ -7,6 +7,7 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"strconv"
 
 	"gamch1k.org/todo/database"
 	env_manager "gamch1k.org/todo/envmanager"
@@ -43,7 +44,8 @@ func api_post_task(w http.ResponseWriter, r *http.Request) {
 	var status ResponseStatus
 
 	if text != "" {
-		database.InsertTask(env_manager.GetEnvVariable("DATABASE_PATH"), text)
+		db_path := env_manager.GetEnvVariable("DATABASE_PATH")
+		database.InsertTask(db_path, text)
 		status = ResponseStatus{
 			Status: 200,
 			Success: true,
@@ -57,6 +59,42 @@ func api_post_task(w http.ResponseWriter, r *http.Request) {
 			Error_msg: "text parameter is empty",
 		}
 	}
+
+	json_data, _ := json.Marshal(status)
+	io.WriteString(w, string(json_data))
+}
+
+
+func api_update_task(w http.ResponseWriter, r *http.Request) {
+	id := r.URL.Query().Get("id")
+	complete := r.URL.Query().Get("status")
+
+	var status ResponseStatus
+
+	if id != "" && complete != "" {
+		id_int, _ := strconv.Atoi(id)
+		var status_bool bool
+		if complete == "true" {
+			status_bool = true
+		} else {
+			status_bool = false
+		}
+		
+		db_path := env_manager.GetEnvVariable("DATABASE_PATH")
+		database.UpdateTaskDone(db_path, id_int, status_bool)
+		status = ResponseStatus{
+			Status: 200,
+			Success: true,
+			Error_msg: "",
+		}
+	} else {
+		log.Println("Some parameters are missing")
+		status = ResponseStatus{
+			Status: 400,
+			Success: false,
+			Error_msg: "some parameters are missing",
+		}
+	}
 	
 	json_data, _ := json.Marshal(status)
 	io.WriteString(w, string(json_data))
@@ -66,6 +104,7 @@ func api_post_task(w http.ResponseWriter, r *http.Request) {
 func Start(port string) {
 	http.HandleFunc("/api/get_tasks", api_get_tasks)
 	http.HandleFunc("/api/post_task", api_post_task)
+	http.HandleFunc("/api/update_task", api_update_task)
 
 	log.Println("Starting server on", port)
 

@@ -64,3 +64,24 @@ func GetTasks(path string) []Task {
 
 	return final
 }
+
+
+func UpdateTaskDone(path string, id int, status bool) {
+	db := OpenDatabase(path).db
+	defer CloseDatabase(db)
+
+	log.Printf("Changing task with id %d to %t (tasks table)", id, status)
+
+	query_text := `Update tasks SET done = ? WHERE task_id = ?`
+
+	query, err := db.Prepare(query_text)
+	if err != nil {
+		log.Fatal(err.Error())
+	}
+	_, err = query.Exec(status, id)
+	if err != nil {
+		log.Fatal(err.Error())
+	}
+
+	log.Println("Task succesfully updated")
+}

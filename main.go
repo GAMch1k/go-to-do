@@ -33,6 +33,8 @@ func main() {
 
 	// fmt.Println(database.GetTasks(db_path))
 
+	// database.UpdateTaskDone(db_path, 4, false)
+
 	server.Start("localhost:" + env_manager.GetEnvVariable("PORT"))
 
 	

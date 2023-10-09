@@ -598,3 +598,86 @@
 2023/10/09 03:19:59 [{1 Some test text 0} {2 Some test text 0} {3 Some test text 0} {4 Some test text 0} {5 tasktext 0} {6 tasktext 0} {7 tasktext 0} {8 tasktext 0} {9 tasktext 0} {10 tasktext 0}]
 2023/10/09 03:19:59 Tasks data converted to JSON
 2023/10/09 03:19:59 Sent JSON data
+2023/10/09 03:30:09 ----------- PROGRAM STARTED -----------
+2023/10/09 03:30:09 Loading .env file
+2023/10/09 03:30:09 Database in ./database/databases/database.db already exists
+2023/10/09 03:30:09 Opening database file ./database/databases/database.db
+2023/10/09 03:30:09 Checking if table tasks exist
+2023/10/09 03:30:09 Database fully initialized!
+2023/10/09 03:30:09 Database closed
+2023/10/09 03:30:09 Opening database file ./database/databases/database.db
+2023/10/09 03:30:09 Changing task with id 4 to true (tasks table)
+2023/10/09 03:30:09 Task succesfully updated
+2023/10/09 03:30:09 Database closed
+2023/10/09 03:30:09 Loading .env file
+2023/10/09 03:30:09 Starting server on localhost:3000
+2023/10/09 03:30:22 ----------- PROGRAM STARTED -----------
+2023/10/09 03:30:22 Loading .env file
+2023/10/09 03:30:22 Database in ./database/databases/database.db already exists
+2023/10/09 03:30:22 Opening database file ./database/databases/database.db
+2023/10/09 03:30:22 Checking if table tasks exist
+2023/10/09 03:30:22 Database fully initialized!
+2023/10/09 03:30:22 Database closed
+2023/10/09 03:30:22 Opening database file ./database/databases/database.db
+2023/10/09 03:30:22 Changing task with id 4 to false (tasks table)
+2023/10/09 03:30:22 Task succesfully updated
+2023/10/09 03:30:22 Database closed
+2023/10/09 03:30:22 Loading .env file
+2023/10/09 03:30:22 Starting server on localhost:3000
+2023/10/09 03:39:25 ----------- PROGRAM STARTED -----------
+2023/10/09 03:39:25 Loading .env file
+2023/10/09 03:39:25 Database in ./database/databases/database.db already exists
+2023/10/09 03:39:25 Opening database file ./database/databases/database.db
+2023/10/09 03:39:25 Checking if table tasks exist
+2023/10/09 03:39:25 Database fully initialized!
+2023/10/09 03:39:25 Database closed
+2023/10/09 03:39:25 Loading .env file
+2023/10/09 03:39:25 Starting server on localhost:3000
+2023/10/09 03:39:54 Loading .env file
+2023/10/09 03:39:54 Opening database file ./database/databases/database.db
+2023/10/09 03:39:54 Changing task with id 6 to true (tasks table)
+2023/10/09 03:39:54 Task succesfully updated
+2023/10/09 03:39:54 Database closed
+2023/10/09 03:40:43 Loading .env file
+2023/10/09 03:40:43 Opening database file ./database/databases/database.db
+2023/10/09 03:40:43 Changing task with id 6 to false (tasks table)
+2023/10/09 03:40:43 Task succesfully updated
+2023/10/09 03:40:43 Database closed
+2023/10/09 03:40:50 ----------- PROGRAM STARTED -----------
+2023/10/09 03:40:50 Loading .env file
+2023/10/09 03:40:50 Database in ./database/databases/database.db already exists
+2023/10/09 03:40:50 Opening database file ./database/databases/database.db
+2023/10/09 03:40:50 Checking if table tasks exist
+2023/10/09 03:40:50 Database fully initialized!
+2023/10/09 03:40:50 Database closed
+2023/10/09 03:40:50 Loading .env file
+2023/10/09 03:40:50 Starting server on localhost:3000
+2023/10/09 03:42:07 ----------- PROGRAM STARTED -----------
+2023/10/09 03:42:07 Loading .env file
+2023/10/09 03:42:07 Database in ./database/databases/database.db already exists
+2023/10/09 03:42:07 Opening database file ./database/databases/database.db
+2023/10/09 03:42:07 Checking if table tasks exist
+2023/10/09 03:42:07 Database fully initialized!
+2023/10/09 03:42:07 Database closed
+2023/10/09 03:42:07 Loading .env file
+2023/10/09 03:42:07 Starting server on localhost:3000
+2023/10/09 03:42:15 Loading .env file
+2023/10/09 03:42:15 Opening database file ./database/databases/database.db
+2023/10/09 03:42:15 Changing task with id 6 to true (tasks table)
+2023/10/09 03:42:15 Task succesfully updated
+2023/10/09 03:42:15 Database closed
+2023/10/09 03:42:26 Loading .env file
+2023/10/09 03:42:26 Opening database file ./database/databases/database.db
+2023/10/09 03:42:26 Changing task with id 4 to true (tasks table)
+2023/10/09 03:42:26 Task succesfully updated
+2023/10/09 03:42:26 Database closed
+2023/10/09 03:42:33 Loading .env file
+2023/10/09 03:42:33 Opening database file ./database/databases/database.db
+2023/10/09 03:42:33 Changing task with id 4 to false (tasks table)
+2023/10/09 03:42:33 Task succesfully updated
+2023/10/09 03:42:33 Database closed
+2023/10/09 03:42:37 Loading .env file
+2023/10/09 03:42:37 Opening database file ./database/databases/database.db
+2023/10/09 03:42:37 Changing task with id 6 to false (tasks table)
+2023/10/09 03:42:37 Task succesfully updated
+2023/10/09 03:42:37 Database closed
