@@ -681,3 +681,789 @@
 2023/10/09 03:42:37 Changing task with id 6 to false (tasks table)
 2023/10/09 03:42:37 Task succesfully updated
 2023/10/09 03:42:37 Database closed
+2023/10/09 12:23:48 ----------- PROGRAM STARTED -----------
+2023/10/09 12:23:48 Loading .env file
+2023/10/09 12:23:48 Database in ./database/databases/database.db already exists
+2023/10/09 12:23:48 Opening database file ./database/databases/database.db
+2023/10/09 12:23:48 Checking if table tasks exist
+2023/10/09 12:23:48 Database fully initialized!
+2023/10/09 12:23:48 Database closed
+2023/10/09 12:23:48 Loading .env file
+2023/10/09 12:23:48 Starting server on localhost:3000
+2023/10/09 12:24:15 API get tasks request
+2023/10/09 12:24:15 Loading .env file
+2023/10/09 12:24:15 Opening database file ./database/databases/database.db
+2023/10/09 12:24:15 Database closed
+2023/10/09 12:24:15 [{1 Some test text 0} {2 Some test text 0} {3 Some test text 0} {4 Some test text 0} {5 tasktext 0} {6 tasktext 0} {7 tasktext 0} {8 tasktext 0} {9 tasktext 0} {10 tasktext 0}]
+2023/10/09 12:24:15 Tasks data converted to JSON
+2023/10/09 12:24:15 Sent JSON data
+2023/10/09 12:35:37 ----------- PROGRAM STARTED -----------
+2023/10/09 12:35:37 Loading .env file
+2023/10/09 12:35:37 Database in ./database/databases/database.db already exists
+2023/10/09 12:35:37 Opening database file ./database/databases/database.db
+2023/10/09 12:35:37 Checking if table tasks exist
+2023/10/09 12:35:37 Database fully initialized!
+2023/10/09 12:35:37 Database closed
+2023/10/09 12:35:37 Opening database file ./database/databases/database.db
+2023/10/09 12:35:37 Database closed
+2023/10/09 12:35:37 Loading .env file
+2023/10/09 12:35:37 Starting server on localhost:3000
+2023/10/09 12:36:11 ----------- PROGRAM STARTED -----------
+2023/10/09 12:36:11 Loading .env file
+2023/10/09 12:36:11 Database in ./database/databases/database.db already exists
+2023/10/09 12:36:11 Opening database file ./database/databases/database.db
+2023/10/09 12:36:11 Checking if table tasks exist
+2023/10/09 12:36:11 Database fully initialized!
+2023/10/09 12:36:11 Database closed
+2023/10/09 12:36:11 Opening database file ./database/databases/database.db
+2023/10/09 12:36:11 Database closed
+2023/10/09 12:36:11 Loading .env file
+2023/10/09 12:36:11 Starting server on localhost:3000
+2023/10/09 12:40:48 ----------- PROGRAM STARTED -----------
+2023/10/09 12:40:48 Loading .env file
+2023/10/09 12:40:48 Database in ./database/databases/database.db already exists
+2023/10/09 12:40:48 Opening database file ./database/databases/database.db
+2023/10/09 12:40:48 Checking if table tasks exist
+2023/10/09 12:40:48 Database fully initialized!
+2023/10/09 12:40:48 Database closed
+2023/10/09 12:40:48 Opening database file ./database/databases/database.db
+2023/10/09 12:40:48 Database closed
+2023/10/09 12:40:48 Loading .env file
+2023/10/09 12:40:48 Starting server on localhost:3000
+2023/10/09 12:43:00 ----------- PROGRAM STARTED -----------
+2023/10/09 12:43:00 Loading .env file
+2023/10/09 12:43:00 Database in ./database/databases/database.db already exists
+2023/10/09 12:43:00 Opening database file ./database/databases/database.db
+2023/10/09 12:43:00 Checking if table tasks exist
+2023/10/09 12:43:00 Database fully initialized!
+2023/10/09 12:43:00 Database closed
+2023/10/09 12:43:00 Opening database file ./database/databases/database.db
+2023/10/09 12:43:00 Database closed
+2023/10/09 12:43:00 Loading .env file
+2023/10/09 12:43:00 Starting server on localhost:3000
+2023/10/09 12:43:16 ----------- PROGRAM STARTED -----------
+2023/10/09 12:43:16 Loading .env file
+2023/10/09 12:43:16 Database in ./database/databases/database.db already exists
+2023/10/09 12:43:16 Opening database file ./database/databases/database.db
+2023/10/09 12:43:16 Checking if table tasks exist
+2023/10/09 12:43:16 Database fully initialized!
+2023/10/09 12:43:16 Database closed
+2023/10/09 12:43:16 Opening database file ./database/databases/database.db
+2023/10/09 12:43:16 Database closed
+2023/10/09 12:43:16 Opening database file ./database/databases/database.db
+2023/10/09 12:43:16 Database closed
+2023/10/09 12:43:16 Loading .env file
+2023/10/09 12:43:16 Starting server on localhost:3000
+2023/10/09 12:49:48 ----------- PROGRAM STARTED -----------
+2023/10/09 12:49:48 Loading .env file
+2023/10/09 12:49:48 Database in ./database/databases/database.db already exists
+2023/10/09 12:49:48 Opening database file ./database/databases/database.db
+2023/10/09 12:49:48 Checking if table tasks exist
+2023/10/09 12:49:48 Database fully initialized!
+2023/10/09 12:49:48 Database closed
+2023/10/09 12:49:48 Loading .env file
+2023/10/09 12:49:48 Starting server on localhost:3000
+2023/10/09 12:51:57 ----------- PROGRAM STARTED -----------
+2023/10/09 12:51:57 Loading .env file
+2023/10/09 12:51:57 Database in ./database/databases/database.db already exists
+2023/10/09 12:51:57 Opening database file ./database/databases/database.db
+2023/10/09 12:51:57 Checking if table tasks exist
+2023/10/09 12:51:57 Database fully initialized!
+2023/10/09 12:51:57 Database closed
+2023/10/09 12:51:57 Opening database file ./database/databases/database.db
+2023/10/09 12:51:57 Database closed
+2023/10/09 12:51:57 Opening database file ./database/databases/database.db
+2023/10/09 12:51:57 Deleting task with id 7
+2023/10/09 12:51:57 Task succesfully deleted
+2023/10/09 12:51:57 Database closed
+2023/10/09 12:51:57 Loading .env file
+2023/10/09 12:51:57 Starting server on localhost:3000
+2023/10/09 12:52:11 API get tasks request
+2023/10/09 12:52:11 Loading .env file
+2023/10/09 12:52:11 Opening database file ./database/databases/database.db
+2023/10/09 12:52:11 Database closed
+2023/10/09 12:52:11 [{1 Some test text 0} {2 Some test text 0} {3 Some test text 0} {4 Some test text 0} {5 tasktext 0} {6 tasktext 0} {8 tasktext 0} {9 tasktext 0} {10 tasktext 0}]
+2023/10/09 12:52:11 Tasks data converted to JSON
+2023/10/09 12:52:11 Sent JSON data
+2023/10/09 12:57:10 ----------- PROGRAM STARTED -----------
+2023/10/09 12:57:10 Loading .env file
+2023/10/09 12:57:10 Database in ./database/databases/database.db already exists
+2023/10/09 12:57:10 Opening database file ./database/databases/database.db
+2023/10/09 12:57:10 Checking if table tasks exist
+2023/10/09 12:57:10 Database fully initialized!
+2023/10/09 12:57:10 Database closed
+2023/10/09 12:57:10 Loading .env file
+2023/10/09 12:57:10 Starting server on localhost:3000
+2023/10/09 12:57:31 Loading .env file
+2023/10/09 12:57:31 Opening database file ./database/databases/database.db
+2023/10/09 12:57:31 Inserting tasktext123 to the ./database/databases/database.db (tasks table)
+2023/10/09 12:57:31 Task succesfully inserted
+2023/10/09 12:57:31 Database closed
+2023/10/09 12:57:50 Loading .env file
+2023/10/09 12:57:50 Opening database file ./database/databases/database.db
+2023/10/09 12:57:50 Database closed
+2023/10/09 12:57:50 Opening database file ./database/databases/database.db
+2023/10/09 12:57:50 Deleting task with id 11
+2023/10/09 12:57:50 Task succesfully deleted
+2023/10/09 12:57:50 Database closed
+2023/10/09 12:57:59 Loading .env file
+2023/10/09 12:57:59 Opening database file ./database/databases/database.db
+2023/10/09 12:57:59 Database closed
+2023/10/09 12:57:59 Opening database file ./database/databases/database.db
+2023/10/09 12:57:59 Deleting task with id 1
+2023/10/09 12:57:59 Task succesfully deleted
+2023/10/09 12:57:59 Database closed
+2023/10/09 12:58:06 Loading .env file
+2023/10/09 12:58:06 Opening database file ./database/databases/database.db
+2023/10/09 12:58:06 Database closed
+2023/10/09 12:58:06 Opening database file ./database/databases/database.db
+2023/10/09 12:58:06 Deleting task with id 5
+2023/10/09 12:58:06 Task succesfully deleted
+2023/10/09 12:58:06 Database closed
+2023/10/09 12:58:14 Loading .env file
+2023/10/09 12:58:14 Opening database file ./database/databases/database.db
+2023/10/09 12:58:14 Database closed
+2023/10/09 12:58:14 Task with id 12 does not exist
+2023/10/09 13:02:20 ----------- PROGRAM STARTED -----------
+2023/10/09 13:02:21 Loading .env file
+2023/10/09 13:02:21 Database in ./database/databases/database.db already exists
+2023/10/09 13:02:21 Opening database file ./database/databases/database.db
+2023/10/09 13:02:21 Checking if table tasks exist
+2023/10/09 13:02:21 Database fully initialized!
+2023/10/09 13:02:21 Database closed
+2023/10/09 13:02:21 Loading .env file
+2023/10/09 13:02:21 Starting server on localhost:3000
+2023/10/09 13:02:28 Loading .env file
+2023/10/09 13:02:28 Opening database file ./database/databases/database.db
+2023/10/09 13:02:28 Database closed
+2023/10/09 13:02:28 Task with id 12 does not exist
+2023/10/09 13:02:28 http: panic serving 127.0.0.1:52415: runtime error: invalid memory address or nil pointer dereference
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff6e25bb120?, 0x7ff6e2567de0?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+gamch1k.org/todo/server.api_delete_task({0x7ff6e26a2470?, 0xc000204000}, 0xc0001f7b18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:124 +0xee
+net/http.HandlerFunc.ServeHTTP(0x7ff6e2187260?, {0x7ff6e26a2470?, 0xc000204000?}, 0x7ff6e2428cba?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e291ee60?, {0x7ff6e26a2470, 0xc000204000}, 0xc0001ee000)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc00019a5a0?}, {0x7ff6e26a2470?, 0xc000204000?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc0001981b0, {0x7ff6e26a2ba8, 0xc00019a4b0})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:02:28 Loading .env file
+2023/10/09 13:02:28 Opening database file ./database/databases/database.db
+2023/10/09 13:02:28 Database closed
+2023/10/09 13:02:28 Task with id 12 does not exist
+2023/10/09 13:02:28 http: panic serving 127.0.0.1:52416: runtime error: invalid memory address or nil pointer dereference
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff6e25bb120?, 0x7ff6e2567de0?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+gamch1k.org/todo/server.api_delete_task({0x7ff6e26a2470?, 0xc000168000}, 0xc0001f3b18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:124 +0xee
+net/http.HandlerFunc.ServeHTTP(0x7ff6e2187260?, {0x7ff6e26a2470?, 0xc000168000?}, 0x7ff6e2428cba?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e291ee60?, {0x7ff6e26a2470, 0xc000168000}, 0xc000140100)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc000024c90?}, {0x7ff6e26a2470?, 0xc000168000?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc000198480, {0x7ff6e26a2ba8, 0xc00019a4b0})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:02:28 Loading .env file
+2023/10/09 13:02:28 Opening database file ./database/databases/database.db
+2023/10/09 13:02:28 Database closed
+2023/10/09 13:02:28 Task with id 12 does not exist
+2023/10/09 13:02:28 http: panic serving 127.0.0.1:52417: runtime error: invalid memory address or nil pointer dereference
+goroutine 9 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff6e25bb120?, 0x7ff6e2567de0?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+gamch1k.org/todo/server.api_delete_task({0x7ff6e26a2470?, 0xc0000b2000}, 0xc00009fb18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:124 +0xee
+net/http.HandlerFunc.ServeHTTP(0x7ff6e2187260?, {0x7ff6e26a2470?, 0xc0000b2000?}, 0x7ff6e2428cba?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e291ee60?, {0x7ff6e26a2470, 0xc0000b2000}, 0xc000096000)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc00008a030?}, {0x7ff6e26a2470?, 0xc0000b2000?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc000166240, {0x7ff6e26a2ba8, 0xc00019a4b0})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:02:28 Loading .env file
+2023/10/09 13:02:28 Opening database file ./database/databases/database.db
+2023/10/09 13:02:28 Database closed
+2023/10/09 13:02:28 Task with id 12 does not exist
+2023/10/09 13:02:28 http: panic serving 127.0.0.1:52418: runtime error: invalid memory address or nil pointer dereference
+goroutine 36 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff6e25bb120?, 0x7ff6e2567de0?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+gamch1k.org/todo/server.api_delete_task({0x7ff6e26a2470?, 0xc0002040e0}, 0xc0001f7b18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:124 +0xee
+net/http.HandlerFunc.ServeHTTP(0x7ff6e2187260?, {0x7ff6e26a2470?, 0xc0002040e0?}, 0x7ff6e2428cba?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e291ee60?, {0x7ff6e26a2470, 0xc0002040e0}, 0xc0001ee100)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc00019a990?}, {0x7ff6e26a2470?, 0xc0002040e0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc0000a2240, {0x7ff6e26a2ba8, 0xc00019a4b0})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:02:28 Loading .env file
+2023/10/09 13:02:28 Opening database file ./database/databases/database.db
+2023/10/09 13:02:28 Database closed
+2023/10/09 13:02:28 Task with id 12 does not exist
+2023/10/09 13:02:28 http: panic serving 127.0.0.1:52419: runtime error: invalid memory address or nil pointer dereference
+goroutine 26 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff6e25bb120?, 0x7ff6e2567de0?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+gamch1k.org/todo/server.api_delete_task({0x7ff6e26a2470?, 0xc0001680e0}, 0xc0001f3b18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:124 +0xee
+net/http.HandlerFunc.ServeHTTP(0x7ff6e2187260?, {0x7ff6e26a2470?, 0xc0001680e0?}, 0x7ff6e2428cba?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e291ee60?, {0x7ff6e26a2470, 0xc0001680e0}, 0xc000140200)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc000025050?}, {0x7ff6e26a2470?, 0xc0001680e0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc000198750, {0x7ff6e26a2ba8, 0xc00019a4b0})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:02:28 Loading .env file
+2023/10/09 13:02:28 Opening database file ./database/databases/database.db
+2023/10/09 13:02:28 Database closed
+2023/10/09 13:02:28 Task with id 12 does not exist
+2023/10/09 13:02:28 http: panic serving 127.0.0.1:52420: runtime error: invalid memory address or nil pointer dereference
+goroutine 12 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff6e25bb120?, 0x7ff6e2567de0?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+gamch1k.org/todo/server.api_delete_task({0x7ff6e26a2470?, 0xc0001681c0}, 0xc0001f7b18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:124 +0xee
+net/http.HandlerFunc.ServeHTTP(0x7ff6e2187260?, {0x7ff6e26a2470?, 0xc0001681c0?}, 0x7ff6e2428cba?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e291ee60?, {0x7ff6e26a2470, 0xc0001681c0}, 0xc0001ee200)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc00019ad20?}, {0x7ff6e26a2470?, 0xc0001681c0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc000166510, {0x7ff6e26a2ba8, 0xc00019a4b0})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:02:28 Loading .env file
+2023/10/09 13:02:28 Opening database file ./database/databases/database.db
+2023/10/09 13:02:28 Database closed
+2023/10/09 13:02:28 Task with id 12 does not exist
+2023/10/09 13:02:28 http: panic serving 127.0.0.1:52421: runtime error: invalid memory address or nil pointer dereference
+goroutine 15 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff6e25bb120?, 0x7ff6e2567de0?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+gamch1k.org/todo/server.api_delete_task({0x7ff6e26a2470?, 0xc0002041c0}, 0xc00009bb18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:124 +0xee
+net/http.HandlerFunc.ServeHTTP(0x7ff6e2187260?, {0x7ff6e26a2470?, 0xc0002041c0?}, 0x7ff6e2428cba?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e291ee60?, {0x7ff6e26a2470, 0xc0002041c0}, 0xc0001ee300)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc00019ad80?}, {0x7ff6e26a2470?, 0xc0002041c0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc0001667e0, {0x7ff6e26a2ba8, 0xc00019a4b0})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:02:28 Loading .env file
+2023/10/09 13:02:28 Opening database file ./database/databases/database.db
+2023/10/09 13:02:28 Database closed
+2023/10/09 13:02:28 Task with id 12 does not exist
+2023/10/09 13:02:28 http: panic serving 127.0.0.1:52422: runtime error: invalid memory address or nil pointer dereference
+goroutine 29 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff6e25bb120?, 0x7ff6e2567de0?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+gamch1k.org/todo/server.api_delete_task({0x7ff6e26a2470?, 0xc0000b20e0}, 0xc00009fb18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:124 +0xee
+net/http.HandlerFunc.ServeHTTP(0x7ff6e2187260?, {0x7ff6e26a2470?, 0xc0000b20e0?}, 0x7ff6e2428cba?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e291ee60?, {0x7ff6e26a2470, 0xc0000b20e0}, 0xc000096100)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc00008a3f0?}, {0x7ff6e26a2470?, 0xc0000b20e0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc000198a20, {0x7ff6e26a2ba8, 0xc00019a4b0})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:02:28 Loading .env file
+2023/10/09 13:02:28 Opening database file ./database/databases/database.db
+2023/10/09 13:02:28 Database closed
+2023/10/09 13:02:28 Task with id 12 does not exist
+2023/10/09 13:02:28 http: panic serving 127.0.0.1:52423: runtime error: invalid memory address or nil pointer dereference
+goroutine 39 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff6e25bb120?, 0x7ff6e2567de0?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+gamch1k.org/todo/server.api_delete_task({0x7ff6e26a2470?, 0xc0000b21c0}, 0xc00009fb18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:124 +0xee
+net/http.HandlerFunc.ServeHTTP(0x7ff6e2187260?, {0x7ff6e26a2470?, 0xc0000b21c0?}, 0x7ff6e2428cba?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e291ee60?, {0x7ff6e26a2470, 0xc0000b21c0}, 0xc000096200)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc00008a780?}, {0x7ff6e26a2470?, 0xc0000b21c0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc0000a2510, {0x7ff6e26a2ba8, 0xc00019a4b0})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:02:28 Loading .env file
+2023/10/09 13:02:28 Opening database file ./database/databases/database.db
+2023/10/09 13:02:28 Database closed
+2023/10/09 13:02:28 Task with id 12 does not exist
+2023/10/09 13:02:28 http: panic serving 127.0.0.1:52424: runtime error: invalid memory address or nil pointer dereference
+goroutine 16 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff6e25bb120?, 0x7ff6e2567de0?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+gamch1k.org/todo/server.api_delete_task({0x7ff6e26a2470?, 0xc0000b22a0}, 0xc0001f7b18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:124 +0xee
+net/http.HandlerFunc.ServeHTTP(0x7ff6e2187260?, {0x7ff6e26a2470?, 0xc0000b22a0?}, 0x7ff6e2428cba?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff6e291ee60?, {0x7ff6e26a2470, 0xc0000b22a0}, 0xc000096300)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc00008aab0?}, {0x7ff6e26a2470?, 0xc0000b22a0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc000166870, {0x7ff6e26a2ba8, 0xc00019a4b0})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:04:20 ----------- PROGRAM STARTED -----------
+2023/10/09 13:04:20 Loading .env file
+2023/10/09 13:04:20 Database in ./database/databases/database.db already exists
+2023/10/09 13:04:20 Opening database file ./database/databases/database.db
+2023/10/09 13:04:20 Checking if table tasks exist
+2023/10/09 13:04:20 Database fully initialized!
+2023/10/09 13:04:20 Database closed
+2023/10/09 13:04:20 Loading .env file
+2023/10/09 13:04:20 Starting server on localhost:3000
+2023/10/09 13:04:22 Loading .env file
+2023/10/09 13:04:22 Opening database file ./database/databases/database.db
+2023/10/09 13:04:22 Database closed
+2023/10/09 13:04:22 Task with id 12 does not exist
+2023/10/09 13:05:01 ----------- PROGRAM STARTED -----------
+2023/10/09 13:05:01 Loading .env file
+2023/10/09 13:05:01 Database in ./database/databases/database.db already exists
+2023/10/09 13:05:01 Opening database file ./database/databases/database.db
+2023/10/09 13:05:01 Checking if table tasks exist
+2023/10/09 13:05:01 Database fully initialized!
+2023/10/09 13:05:01 Database closed
+2023/10/09 13:05:01 Loading .env file
+2023/10/09 13:05:01 Starting server on localhost:3000
+2023/10/09 13:05:05 Loading .env file
+2023/10/09 13:05:05 Opening database file ./database/databases/database.db
+2023/10/09 13:05:05 Database closed
+2023/10/09 13:05:05 Task with id 12 does not exist
+2023/10/09 13:05:34 ----------- PROGRAM STARTED -----------
+2023/10/09 13:05:34 Loading .env file
+2023/10/09 13:05:34 Database in ./database/databases/database.db already exists
+2023/10/09 13:05:34 Opening database file ./database/databases/database.db
+2023/10/09 13:05:34 Checking if table tasks exist
+2023/10/09 13:05:34 Database fully initialized!
+2023/10/09 13:05:34 Database closed
+2023/10/09 13:05:34 Loading .env file
+2023/10/09 13:05:34 Starting server on localhost:3000
+2023/10/09 13:05:36 Loading .env file
+2023/10/09 13:05:36 Opening database file ./database/databases/database.db
+2023/10/09 13:05:36 Database closed
+2023/10/09 13:05:36 Task with id 12 does not exist
+2023/10/09 13:05:47 Loading .env file
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Deleting task with id 4
+2023/10/09 13:05:47 near "FORM": syntax error
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 http: panic serving 127.0.0.1:65115: near "FORM": syntax error
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff7cdb0edc0?, 0xc00002a570?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+log.Panic({0xc0001559a8?, 0x19?, 0x7ff7cde8ee60?})
+	C:/Program Files/Go/src/log/log.go:432 +0x5a
+gamch1k.org/todo/database.DeleteTaskById({0xc000017200, 0x20}, 0x0?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/database/tools.go:138 +0x3b3
+gamch1k.org/todo/server.api_delete_task({0x7ff7cdc124b0?, 0xc00015e0e0}, 0xc000155b18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:112 +0xb7
+net/http.HandlerFunc.ServeHTTP(0x7ff7cd6f7260?, {0x7ff7cdc124b0?, 0xc00015e0e0?}, 0x7ff7cd998d1a?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff7cde8ee60?, {0x7ff7cdc124b0, 0xc00015e0e0}, 0xc000140200)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc000024bd0?}, {0x7ff7cdc124b0?, 0xc00015e0e0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc0000e21b0, {0x7ff7cdc12be8, 0xc0000aa570})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:05:47 Loading .env file
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Deleting task with id 4
+2023/10/09 13:05:47 near "FORM": syntax error
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 http: panic serving 127.0.0.1:65126: near "FORM": syntax error
+goroutine 11 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff7cdb0edc0?, 0xc00002a7b0?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+log.Panic({0xc0001559a8?, 0x19?, 0x7ff7cde8ee60?})
+	C:/Program Files/Go/src/log/log.go:432 +0x5a
+gamch1k.org/todo/database.DeleteTaskById({0xc0000175a0, 0x20}, 0x21dad8?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/database/tools.go:138 +0x3b3
+gamch1k.org/todo/server.api_delete_task({0x7ff7cdc124b0?, 0xc00015e1c0}, 0xc000155b18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:112 +0xb7
+net/http.HandlerFunc.ServeHTTP(0x7ff7cd6f7260?, {0x7ff7cdc124b0?, 0xc00015e1c0?}, 0x7ff7cd998d1a?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff7cde8ee60?, {0x7ff7cdc124b0, 0xc00015e1c0}, 0xc000140300)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc000025560?}, {0x7ff7cdc124b0?, 0xc00015e1c0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc0001565a0, {0x7ff7cdc12be8, 0xc0000aa570})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:05:47 Loading .env file
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Deleting task with id 4
+2023/10/09 13:05:47 near "FORM": syntax error
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 http: panic serving 127.0.0.1:65127: near "FORM": syntax error
+goroutine 15 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff7cdb0edc0?, 0xc000196220?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+log.Panic({0xc0001519a8?, 0x19?, 0x7ff7cde8ee60?})
+	C:/Program Files/Go/src/log/log.go:432 +0x5a
+gamch1k.org/todo/database.DeleteTaskById({0xc0001ae2a0, 0x20}, 0x960b30?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/database/tools.go:138 +0x3b3
+gamch1k.org/todo/server.api_delete_task({0x7ff7cdc124b0?, 0xc0001b2000}, 0xc000151b18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:112 +0xb7
+net/http.HandlerFunc.ServeHTTP(0x7ff7cd6f7260?, {0x7ff7cdc124b0?, 0xc0001b2000?}, 0x7ff7cd998d1a?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff7cde8ee60?, {0x7ff7cdc124b0, 0xc0001b2000}, 0xc00019e000)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc000192030?}, {0x7ff7cdc124b0?, 0xc0001b2000?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc000156900, {0x7ff7cdc12be8, 0xc0000aa570})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:05:47 Loading .env file
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Deleting task with id 4
+2023/10/09 13:05:47 near "FORM": syntax error
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 http: panic serving 127.0.0.1:65128: near "FORM": syntax error
+goroutine 37 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff7cdb0edc0?, 0xc00002a9f0?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+log.Panic({0xc0001559a8?, 0x19?, 0x7ff7cde8ee60?})
+	C:/Program Files/Go/src/log/log.go:432 +0x5a
+gamch1k.org/todo/database.DeleteTaskById({0xc000017940, 0x20}, 0x219ad8?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/database/tools.go:138 +0x3b3
+gamch1k.org/todo/server.api_delete_task({0x7ff7cdc124b0?, 0xc00015e2a0}, 0xc000155b18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:112 +0xb7
+net/http.HandlerFunc.ServeHTTP(0x7ff7cd6f7260?, {0x7ff7cdc124b0?, 0xc00015e2a0?}, 0x7ff7cd998d1a?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff7cde8ee60?, {0x7ff7cdc124b0, 0xc00015e2a0}, 0xc000140400)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc000025a10?}, {0x7ff7cdc124b0?, 0xc00015e2a0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc0001a22d0, {0x7ff7cdc12be8, 0xc0000aa570})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:05:47 Loading .env file
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Deleting task with id 4
+2023/10/09 13:05:47 near "FORM": syntax error
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 http: panic serving 127.0.0.1:65129: near "FORM": syntax error
+goroutine 52 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff7cdb0edc0?, 0xc00009a4f0?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+log.Panic({0xc0003079a8?, 0x19?, 0x7ff7cde8ee60?})
+	C:/Program Files/Go/src/log/log.go:432 +0x5a
+gamch1k.org/todo/database.DeleteTaskById({0xc00008ea80, 0x20}, 0x271658?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/database/tools.go:138 +0x3b3
+gamch1k.org/todo/server.api_delete_task({0x7ff7cdc124b0?, 0xc00030a000}, 0xc000307b18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:112 +0xb7
+net/http.HandlerFunc.ServeHTTP(0x7ff7cd6f7260?, {0x7ff7cdc124b0?, 0xc00030a000?}, 0x7ff7cd998d1a?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff7cde8ee60?, {0x7ff7cdc124b0, 0xc00030a000}, 0xc0000fa000)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc0000aa660?}, {0x7ff7cdc124b0?, 0xc00030a000?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc000156c60, {0x7ff7cdc12be8, 0xc0000aa570})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:05:47 Loading .env file
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Deleting task with id 4
+2023/10/09 13:05:47 near "FORM": syntax error
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 http: panic serving 127.0.0.1:65130: near "FORM": syntax error
+goroutine 25 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff7cdb0edc0?, 0xc00002ac30?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+log.Panic({0xc0001559a8?, 0x19?, 0x7ff7cde8ee60?})
+	C:/Program Files/Go/src/log/log.go:432 +0x5a
+gamch1k.org/todo/database.DeleteTaskById({0xc000017ce0, 0x20}, 0x257ad8?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/database/tools.go:138 +0x3b3
+gamch1k.org/todo/server.api_delete_task({0x7ff7cdc124b0?, 0xc00015e380}, 0xc000155b18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:112 +0xb7
+net/http.HandlerFunc.ServeHTTP(0x7ff7cd6f7260?, {0x7ff7cdc124b0?, 0xc00015e380?}, 0x7ff7cd998d1a?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff7cde8ee60?, {0x7ff7cdc124b0, 0xc00015e380}, 0xc000140600)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc000025ec0?}, {0x7ff7cdc124b0?, 0xc00015e380?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc0000e2510, {0x7ff7cdc12be8, 0xc0000aa570})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:05:47 Loading .env file
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Deleting task with id 4
+2023/10/09 13:05:47 near "FORM": syntax error
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 http: panic serving 127.0.0.1:65131: near "FORM": syntax error
+goroutine 56 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff7cdb0edc0?, 0xc000196460?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+log.Panic({0xc0001519a8?, 0x19?, 0x7ff7cde8ee60?})
+	C:/Program Files/Go/src/log/log.go:432 +0x5a
+gamch1k.org/todo/database.DeleteTaskById({0xc0001ae640, 0x20}, 0x253ad8?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/database/tools.go:138 +0x3b3
+gamch1k.org/todo/server.api_delete_task({0x7ff7cdc124b0?, 0xc0001b20e0}, 0xc000151b18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:112 +0xb7
+net/http.HandlerFunc.ServeHTTP(0x7ff7cd6f7260?, {0x7ff7cdc124b0?, 0xc0001b20e0?}, 0x7ff7cd998d1a?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff7cde8ee60?, {0x7ff7cdc124b0, 0xc0001b20e0}, 0xc00019e100)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc000192510?}, {0x7ff7cdc124b0?, 0xc0001b20e0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc000156fc0, {0x7ff7cdc12be8, 0xc0000aa570})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:05:47 Loading .env file
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Deleting task with id 4
+2023/10/09 13:05:47 near "FORM": syntax error
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 http: panic serving 127.0.0.1:65132: near "FORM": syntax error
+goroutine 41 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff7cdb0edc0?, 0xc00002ae70?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+log.Panic({0xc0001559a8?, 0x19?, 0x7ff7cde8ee60?})
+	C:/Program Files/Go/src/log/log.go:432 +0x5a
+gamch1k.org/todo/database.DeleteTaskById({0xc000278080, 0x20}, 0x253ad8?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/database/tools.go:138 +0x3b3
+gamch1k.org/todo/server.api_delete_task({0x7ff7cdc124b0?, 0xc00015e460}, 0xc000155b18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:112 +0xb7
+net/http.HandlerFunc.ServeHTTP(0x7ff7cd6f7260?, {0x7ff7cdc124b0?, 0xc00015e460?}, 0x7ff7cd998d1a?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff7cde8ee60?, {0x7ff7cdc124b0, 0xc00015e460}, 0xc000140700)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc00025a390?}, {0x7ff7cdc124b0?, 0xc00015e460?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc0001a2630, {0x7ff7cdc12be8, 0xc0000aa570})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:05:47 Loading .env file
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Deleting task with id 4
+2023/10/09 13:05:47 near "FORM": syntax error
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 http: panic serving 127.0.0.1:65133: near "FORM": syntax error
+goroutine 60 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff7cdb0edc0?, 0xc00009a730?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+log.Panic({0xc0003079a8?, 0x19?, 0x7ff7cde8ee60?})
+	C:/Program Files/Go/src/log/log.go:432 +0x5a
+gamch1k.org/todo/database.DeleteTaskById({0xc00008ee20, 0x20}, 0x395ad8?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/database/tools.go:138 +0x3b3
+gamch1k.org/todo/server.api_delete_task({0x7ff7cdc124b0?, 0xc00030a0e0}, 0xc000307b18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:112 +0xb7
+net/http.HandlerFunc.ServeHTTP(0x7ff7cd6f7260?, {0x7ff7cdc124b0?, 0xc00030a0e0?}, 0x7ff7cd998d1a?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff7cde8ee60?, {0x7ff7cdc124b0, 0xc00030a0e0}, 0xc0000fa100)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc0000aab40?}, {0x7ff7cdc124b0?, 0xc00030a0e0?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc000157320, {0x7ff7cdc12be8, 0xc0000aa570})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:05:47 Loading .env file
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 Opening database file ./database/databases/database.db
+2023/10/09 13:05:47 Deleting task with id 4
+2023/10/09 13:05:47 near "FORM": syntax error
+2023/10/09 13:05:47 Database closed
+2023/10/09 13:05:47 http: panic serving 127.0.0.1:65134: near "FORM": syntax error
+goroutine 29 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1868 +0xb9
+panic({0x7ff7cdb0edc0?, 0xc00002b0b0?})
+	C:/Program Files/Go/src/runtime/panic.go:920 +0x270
+log.Panic({0xc0001559a8?, 0x19?, 0x7ff7cde8ee60?})
+	C:/Program Files/Go/src/log/log.go:432 +0x5a
+gamch1k.org/todo/database.DeleteTaskById({0xc000278420, 0x20}, 0x395ad8?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/database/tools.go:138 +0x3b3
+gamch1k.org/todo/server.api_delete_task({0x7ff7cdc124b0?, 0xc00015e540}, 0xc000155b18?)
+	C:/Users/gamch/Documents/Projects/go/to-do/go-to-do/server/http_server.go:112 +0xb7
+net/http.HandlerFunc.ServeHTTP(0x7ff7cd6f7260?, {0x7ff7cdc124b0?, 0xc00015e540?}, 0x7ff7cd998d1a?)
+	C:/Program Files/Go/src/net/http/server.go:2136 +0x29
+net/http.(*ServeMux).ServeHTTP(0x7ff7cde8ee60?, {0x7ff7cdc124b0, 0xc00015e540}, 0xc000140800)
+	C:/Program Files/Go/src/net/http/server.go:2514 +0x142
+net/http.serverHandler.ServeHTTP({0xc00025a840?}, {0x7ff7cdc124b0?, 0xc00015e540?}, 0x6?)
+	C:/Program Files/Go/src/net/http/server.go:2938 +0x8e
+net/http.(*conn).serve(0xc0000e2870, {0x7ff7cdc12be8, 0xc0000aa570})
+	C:/Program Files/Go/src/net/http/server.go:2009 +0x5f4
+created by net/http.(*Server).Serve in goroutine 1
+	C:/Program Files/Go/src/net/http/server.go:3086 +0x5cb
+2023/10/09 13:07:01 ----------- PROGRAM STARTED -----------
+2023/10/09 13:07:01 Loading .env file
+2023/10/09 13:07:01 Database in ./database/databases/database.db already exists
+2023/10/09 13:07:01 Opening database file ./database/databases/database.db
+2023/10/09 13:07:01 Checking if table tasks exist
+2023/10/09 13:07:01 Database fully initialized!
+2023/10/09 13:07:01 Database closed
+2023/10/09 13:07:01 Loading .env file
+2023/10/09 13:07:01 Starting server on localhost:3000
+2023/10/09 13:07:05 Loading .env file
+2023/10/09 13:07:05 Opening database file ./database/databases/database.db
+2023/10/09 13:07:05 Database closed
+2023/10/09 13:07:05 Opening database file ./database/databases/database.db
+2023/10/09 13:07:05 Deleting task with id 4
+2023/10/09 13:07:05 near "FORM": syntax error
+2023/10/09 13:07:05 Database closed
+2023/10/09 13:07:43 ----------- PROGRAM STARTED -----------
+2023/10/09 13:07:43 Loading .env file
+2023/10/09 13:07:43 Database in ./database/databases/database.db already exists
+2023/10/09 13:07:43 Opening database file ./database/databases/database.db
+2023/10/09 13:07:43 Checking if table tasks exist
+2023/10/09 13:07:43 Database fully initialized!
+2023/10/09 13:07:43 Database closed
+2023/10/09 13:07:43 Loading .env file
+2023/10/09 13:07:43 Starting server on localhost:3000
+2023/10/09 13:07:48 Loading .env file
+2023/10/09 13:07:48 Opening database file ./database/databases/database.db
+2023/10/09 13:07:48 Database closed
+2023/10/09 13:07:48 Opening database file ./database/databases/database.db
+2023/10/09 13:07:48 Deleting task with id 4
+Error2023/10/09 13:07:48 near "FORM": syntax error
+Error2023/10/09 13:07:48 Database closed
+2023/10/09 13:08:50 ----------- PROGRAM STARTED -----------
+2023/10/09 13:08:50 Loading .env file
+2023/10/09 13:08:50 Database in ./database/databases/database.db already exists
+2023/10/09 13:08:50 Opening database file ./database/databases/database.db
+2023/10/09 13:08:50 Checking if table tasks exist
+2023/10/09 13:08:50 Database fully initialized!
+2023/10/09 13:08:50 Database closed
+2023/10/09 13:08:50 Loading .env file
+2023/10/09 13:08:50 Starting server on localhost:3000
+2023/10/09 13:08:53 Loading .env file
+2023/10/09 13:08:53 Opening database file ./database/databases/database.db
+2023/10/09 13:08:53 Database closed
+2023/10/09 13:08:53 Opening database file ./database/databases/database.db
+2023/10/09 13:08:53 Deleting task with id 4
+ERROR 2023/10/09 13:08:53 near "FORM": syntax error
+ERROR 2023/10/09 13:08:53 Database closed
+ERROR 2023/10/09 13:09:10 API get tasks request
+ERROR 2023/10/09 13:09:10 Loading .env file
+ERROR 2023/10/09 13:09:10 Opening database file ./database/databases/database.db
+ERROR 2023/10/09 13:09:10 Database closed
+ERROR 2023/10/09 13:09:10 [{2 Some test text 0} {3 Some test text 0} {4 Some test text 0} {6 tasktext 0} {8 tasktext 0} {9 tasktext 0} {10 tasktext 0}]
+ERROR 2023/10/09 13:09:10 Tasks data converted to JSON
+ERROR 2023/10/09 13:09:10 Sent JSON data
+2023/10/09 13:09:41 ----------- PROGRAM STARTED -----------
+2023/10/09 13:09:41 Loading .env file
+2023/10/09 13:09:41 Database in ./database/databases/database.db already exists
+2023/10/09 13:09:41 Opening database file ./database/databases/database.db
+2023/10/09 13:09:41 Checking if table tasks exist
+2023/10/09 13:09:41 Database fully initialized!
+2023/10/09 13:09:41 Database closed
+2023/10/09 13:09:41 Loading .env file
+2023/10/09 13:09:41 Starting server on localhost:3000
+2023/10/09 13:09:48 Loading .env file
+2023/10/09 13:09:48 Opening database file ./database/databases/database.db
+2023/10/09 13:09:48 Database closed
+2023/10/09 13:09:48 Opening database file ./database/databases/database.db
+2023/10/09 13:09:48 Deleting task with id 4
+ERROR 2023/10/09 13:09:48 near "FORM": syntax error
+2023/10/09 13:09:48 Database closed
+2023/10/09 13:09:59 API get tasks request
+2023/10/09 13:09:59 Loading .env file
+2023/10/09 13:09:59 Opening database file ./database/databases/database.db
+2023/10/09 13:09:59 Database closed
+2023/10/09 13:09:59 [{2 Some test text 0} {3 Some test text 0} {4 Some test text 0} {6 tasktext 0} {8 tasktext 0} {9 tasktext 0} {10 tasktext 0}]
+2023/10/09 13:09:59 Tasks data converted to JSON
+2023/10/09 13:09:59 Sent JSON data
+2023/10/09 13:10:07 Loading .env file
+2023/10/09 13:10:07 Opening database file ./database/databases/database.db
+2023/10/09 13:10:07 Database closed
+2023/10/09 13:10:07 Opening database file ./database/databases/database.db
+2023/10/09 13:10:07 Deleting task with id 4
+ERROR 2023/10/09 13:10:07 near "FORM": syntax error
+2023/10/09 13:10:07 Database closed

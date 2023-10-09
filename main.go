@@ -2,7 +2,6 @@ package main
 
 import (
 	_ "errors"
-	_ "fmt"
 	"io"
 	"log"
 	"os"
@@ -34,6 +33,10 @@ func main() {
 	// fmt.Println(database.GetTasks(db_path))
 
 	// database.UpdateTaskDone(db_path, 4, false)
+
+	// fmt.Println(database.CheckTaskExist(db_path, 2))
+	// fmt.Println(database.CheckTaskExist(db_path, 25))
+	// database.DeleteTaskById(db_path, 7)
 
 	server.Start("localhost:" + env_manager.GetEnvVariable("PORT"))
 

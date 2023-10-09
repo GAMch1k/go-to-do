@@ -2,6 +2,7 @@ package database
 
 import (
 	"log"
+	"errors"
 
 	_ "github.com/mattn/go-sqlite3"
 )
@@ -66,13 +67,48 @@ func GetTasks(path string) []Task {
 }
 
 
+func GetTaskById(path string, id int) Task {
+	db := OpenDatabase(path).db
+	defer CloseDatabase(db)
+
+	var task Task
+
+	rows, err := db.Query("SELECT * FROM tasks WHERE task_id = ?", id)
+
+	if err != nil {
+		log.Fatal(err.Error())
+	}
+
+	for rows.Next() {
+		rows.Scan(&task.Id, &task.Text, &task.Done)
+	}
+
+	return task
+	
+}
+
+
+func CheckTaskExist(path string, id int) bool {
+	res := GetTaskById(path, id)
+	
+	if res.Id == 0 {
+		log.Printf("Task with id %d does not exist", id)
+	}
+
+	return res.Id != 0
+}
+
+
 func UpdateTaskDone(path string, id int, status bool) {
+
+	if !CheckTaskExist(path, id) { return }
+
 	db := OpenDatabase(path).db
 	defer CloseDatabase(db)
 
 	log.Printf("Changing task with id %d to %t (tasks table)", id, status)
 
-	query_text := `Update tasks SET done = ? WHERE task_id = ?`
+	query_text := `UPDATE tasks SET done = ? WHERE task_id = ?`
 
 	query, err := db.Prepare(query_text)
 	if err != nil {
@@ -84,4 +120,34 @@ func UpdateTaskDone(path string, id int, status bool) {
 	}
 
 	log.Println("Task succesfully updated")
+}
+
+func DeleteTaskById(path string, id int) (bool, error) {
+
+	if !CheckTaskExist(path, id) { return false, errors.New("Task does not exists") }
+
+	db := OpenDatabase(path).db
+	defer CloseDatabase(db)
+
+	log.Println("Deleting task with id", id)
+
+	query_text := `DELETE FROM tasks WHERE task_id = ?`
+
+	query, err := db.Prepare(query_text)
+	if err != nil {
+		log.SetPrefix("ERROR ")
+		log.Println(err.Error())
+		log.SetPrefix("")
+		return false, err
+	}
+	_, err = query.Exec(id)
+	if err != nil {
+		log.SetPrefix("ERROR ")
+		log.Println(err.Error())
+		log.SetPrefix("")
+		return false, err
+	}
+
+	log.Println("Task succesfully deleted")
+	return true, errors.New("")
 }

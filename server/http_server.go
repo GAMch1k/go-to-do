@@ -79,7 +79,7 @@ func api_update_task(w http.ResponseWriter, r *http.Request) {
 		} else {
 			status_bool = false
 		}
-		
+
 		db_path := env_manager.GetEnvVariable("DATABASE_PATH")
 		database.UpdateTaskDone(db_path, id_int, status_bool)
 		status = ResponseStatus{
@@ -101,10 +101,50 @@ func api_update_task(w http.ResponseWriter, r *http.Request) {
 }
 
 
+func api_delete_task(w http.ResponseWriter, r *http.Request) {
+	id := r.URL.Query().Get("id")
+
+	var status ResponseStatus
+
+	if id != "" {
+		db_path := env_manager.GetEnvVariable("DATABASE_PATH")
+		id_int, _ := strconv.Atoi(id)
+		del, err := database.DeleteTaskById(db_path, id_int)
+		
+		if del {
+			status = ResponseStatus{
+				Status: 200,
+				Success: true,
+				Error_msg: "",
+			}
+		} else {
+			status = ResponseStatus{
+				Status: 400,
+				Success: false,
+				Error_msg: "something went wrong: " + err.Error(),
+			}
+		}
+
+	} else {
+		log.Println("Id parameter is empty")
+
+		status = ResponseStatus{
+			Status: 400,
+			Success: false,
+			Error_msg: "id parameter is empty",
+		}
+	}
+
+	json_data, _ := json.Marshal(status)
+	io.WriteString(w, string(json_data))
+}
+
+
 func Start(port string) {
 	http.HandleFunc("/api/get_tasks", api_get_tasks)
 	http.HandleFunc("/api/post_task", api_post_task)
 	http.HandleFunc("/api/update_task", api_update_task)
+	http.HandleFunc("/api/delete_task", api_delete_task)
 
 	log.Println("Starting server on", port)
 
