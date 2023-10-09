@@ -7,6 +7,7 @@ import (
 	"os"
 
 	"gamch1k.org/todo/database"
+	"gamch1k.org/todo/server"
 
 	"github.com/joho/godotenv"
 )
@@ -36,6 +37,14 @@ func main() {
 	mw := io.MultiWriter(os.Stdout, log_file)
 	log.SetOutput(mw)
 
-	database.InitDatabase(get_env_variable("DATABASE_PATH"))
+	db_path := get_env_variable("DATABASE_PATH")
+
+	database.InitDatabase(db_path)
+
+	database.InsertTask(db_path, "Some test text")
+
+	database.GetTasks(db_path)
+
+	server.Start("localhost:" + get_env_variable("PORT"))
 }
 

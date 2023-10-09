@@ -46,7 +46,7 @@ func InitDatabase(path string) {
 		file.Close()
 		log.Println("Database created in", path)
 		} else {
-			log.Printf("Database in %s already exists \n", path)
+			log.Printf("Database in %s already exists", path)
 	}
 
 
@@ -84,7 +84,7 @@ func CloseDatabase(db *sql.DB) {
 
 
 func CheckIfTableExists(db *sql.DB, name string) bool {
-	log.Printf("Checking if table %s exists\n", name)
+	log.Printf("Checking if table %s exist", name)
 	
 	query, err := db.Prepare("SELECT name FROM sqlite_master WHERE type='table' AND name=?")
 	
@@ -141,7 +141,6 @@ func CreateTable(db *sql.DB, name string, fields []DB_field) {
 	
 
 	for _, el := range fields {
-		// log.Println(index)
 		createField := fmt.Sprintf("ALTER TABLE %s ADD %s %s", name, el.Name, el.Type)
 
 		statement, err := db.Prepare(createField)
