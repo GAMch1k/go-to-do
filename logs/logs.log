@@ -1505,3 +1505,211 @@ ERROR 2023/10/09 13:10:07 near "FORM": syntax error
 2023/10/09 23:25:03 [{2 Some test text 0} {3 Some test text 0} {4 Some test text 0} {6 tasktext 0} {8 tasktext 0} {9 tasktext 0} {10 tasktext 0} {12 tasddssd 0}]
 2023/10/09 23:25:03 Tasks data converted to JSON
 2023/10/09 23:25:03 Sent JSON data
+2023/10/09 23:35:19 ----------- PROGRAM STARTED -----------
+2023/10/09 23:35:19 Loading .env file
+2023/10/09 23:35:19 Database in ./database/databases/database.db already exists
+2023/10/09 23:35:19 Loading .env file
+2023/10/09 23:35:19 Opening database file ./database/databases/database.db
+2023/10/09 23:35:19 Checking if table tasks exist
+2023/10/09 23:35:19 Database fully initialized!
+2023/10/09 23:35:19 Database closed
+2023/10/09 23:35:19 Loading .env file
+2023/10/09 23:35:19 Starting server on localhost:3000
+2023/10/09 23:35:21 API get tasks request
+2023/10/09 23:35:21 Loading .env file
+2023/10/09 23:35:21 Opening database file ./database/databases/database.db
+2023/10/09 23:35:21 Database closed
+2023/10/09 23:35:21 [{2 Some test text 0} {3 Some test text 0} {4 Some test text 0} {6 tasktext 0} {8 tasktext 0} {9 tasktext 0} {10 tasktext 0} {12 tasddssd 0}]
+2023/10/09 23:35:21 Tasks data converted to JSON
+2023/10/09 23:35:21 Sent JSON data
+2023/10/09 23:35:27 Loading .env file
+2023/10/09 23:35:27 Opening database file ./database/databases/database.db
+2023/10/09 23:35:27 Inserting tasktext to the tasks table
+2023/10/09 23:35:27 Task succesfully inserted
+2023/10/09 23:35:27 Database closed
+2023/10/09 23:35:31 API get tasks request
+2023/10/09 23:35:31 Loading .env file
+2023/10/09 23:35:31 Opening database file ./database/databases/database.db
+2023/10/09 23:35:31 Database closed
+2023/10/09 23:35:31 [{2 Some test text 0} {3 Some test text 0} {4 Some test text 0} {6 tasktext 0} {8 tasktext 0} {9 tasktext 0} {10 tasktext 0} {12 tasddssd 0} {13 tasktext 0}]
+2023/10/09 23:35:31 Tasks data converted to JSON
+2023/10/09 23:35:31 Sent JSON data
+2023/10/09 23:35:41 Loading .env file
+2023/10/09 23:35:41 Opening database file ./database/databases/database.db
+2023/10/09 23:35:41 Database closed
+2023/10/09 23:35:41 Loading .env file
+2023/10/09 23:35:41 Opening database file ./database/databases/database.db
+2023/10/09 23:35:41 Deleting task with id 12
+2023/10/09 23:35:41 Task succesfully deleted
+2023/10/09 23:35:41 Database closed
+2023/10/09 23:35:46 Loading .env file
+2023/10/09 23:35:46 Opening database file ./database/databases/database.db
+2023/10/09 23:35:46 Database closed
+2023/10/09 23:35:46 Task with id 123 does not exist
+2023/10/09 23:35:53 API get tasks request
+2023/10/09 23:35:53 Loading .env file
+2023/10/09 23:35:53 Opening database file ./database/databases/database.db
+2023/10/09 23:35:53 Database closed
+2023/10/09 23:35:53 [{2 Some test text 0} {3 Some test text 0} {4 Some test text 0} {6 tasktext 0} {8 tasktext 0} {9 tasktext 0} {10 tasktext 0} {13 tasktext 0}]
+2023/10/09 23:35:53 Tasks data converted to JSON
+2023/10/09 23:35:53 Sent JSON data
+2023/10/10 02:25:49 ----------- PROGRAM STARTED -----------
+2023/10/10 02:25:49 Loading .env file
+2023/10/10 02:25:49 Database in ./database/databases/database.db already exists
+2023/10/10 02:25:49 Loading .env file
+2023/10/10 02:25:49 Opening database file ./database/databases/database.db
+2023/10/10 02:25:49 Checking if table tasks exist
+2023/10/10 02:25:49 Database fully initialized!
+2023/10/10 02:25:49 Database closed
+2023/10/10 02:25:49 Loading .env file
+2023/10/10 02:25:49 Starting server on localhost:3000
+2023/10/10 02:25:56 API get tasks request
+2023/10/10 02:25:56 Loading .env file
+2023/10/10 02:25:56 Opening database file ./database/databases/database.db
+2023/10/10 02:25:56 Database closed
+2023/10/10 02:25:56 [{2 Some test text 0} {3 Some test text 0} {4 Some test text 0} {6 tasktext 0} {8 tasktext 0} {9 tasktext 0} {10 tasktext 0} {13 tasktext 0}]
+2023/10/10 02:25:56 Tasks data converted to JSON
+2023/10/10 02:25:56 Sent JSON data
+2023/10/10 02:26:08 Loading .env file
+2023/10/10 02:26:08 Opening database file ./database/databases/database.db
+2023/10/10 02:26:08 Database closed
+2023/10/10 02:26:08 Task with id 223 does not exist
+2023/10/10 02:27:19 ----------- PROGRAM STARTED -----------
+2023/10/10 02:27:19 Loading .env file
+2023/10/10 02:27:19 Database in ./database/databases/database.db already exists
+2023/10/10 02:27:19 Loading .env file
+2023/10/10 02:27:19 Opening database file ./database/databases/database.db
+2023/10/10 02:27:19 Checking if table tasks exist
+2023/10/10 02:27:19 Database fully initialized!
+2023/10/10 02:27:19 Database closed
+2023/10/10 02:27:19 Loading .env file
+2023/10/10 02:27:19 Starting server on localhost:3000
+2023/10/10 02:32:29 ----------- PROGRAM STARTED -----------
+2023/10/10 02:32:29 Loading .env file
+2023/10/10 02:32:29 Database in ./database/databases/database.db already exists
+2023/10/10 02:32:29 Loading .env file
+2023/10/10 02:32:29 Opening database file ./database/databases/database.db
+2023/10/10 02:32:29 Checking if table tasks exist
+2023/10/10 02:32:29 Database fully initialized!
+2023/10/10 02:32:29 Database closed
+2023/10/10 02:32:29 Loading .env file
+2023/10/10 02:32:29 Starting server on localhost:3000
+2023/10/10 02:33:14 ----------- PROGRAM STARTED -----------
+2023/10/10 02:33:14 Loading .env file
+2023/10/10 02:33:14 Database in ./database/databases/database.db already exists
+2023/10/10 02:33:14 Loading .env file
+2023/10/10 02:33:14 Opening database file ./database/databases/database.db
+2023/10/10 02:33:14 Checking if table tasks exist
+2023/10/10 02:33:14 Database fully initialized!
+2023/10/10 02:33:14 Database closed
+2023/10/10 02:33:14 Loading .env file
+2023/10/10 02:33:14 Starting server on localhost:3000
+2023/10/10 02:33:30 Loading .env file
+2023/10/10 02:33:30 Opening database file ./database/databases/database.db
+2023/10/10 02:33:30 Inserting tasktext to the tasks table
+ERROR 2023/10/10 02:33:30 near "INOT": syntax error
+2023/10/10 02:33:30 Database closed
+2023/10/10 02:42:24 ----------- PROGRAM STARTED -----------
+2023/10/10 02:42:24 Loading .env file
+2023/10/10 02:42:24 Database in ./database/databases/database.db already exists
+2023/10/10 02:42:24 Loading .env file
+2023/10/10 02:42:24 Opening database file ./database/databases/database.db
+2023/10/10 02:42:24 Checking if table tasks exist
+2023/10/10 02:42:24 Database fully initialized!
+2023/10/10 02:42:24 Database closed
+2023/10/10 02:42:24 Loading .env file
+2023/10/10 02:42:24 Starting server on localhost:3000
+2023/10/10 02:42:44 Loading .env file
+2023/10/10 02:42:44 Opening database file ./database/databases/database.db
+2023/10/10 02:42:44 Inserting tasktext to the tasks table
+2023/10/10 02:42:44 Task succesfully inserted
+2023/10/10 02:42:44 Database closed
+2023/10/10 02:42:49 API get tasks request
+2023/10/10 02:42:49 Loading .env file
+2023/10/10 02:42:49 Opening database file ./database/databases/database.db
+2023/10/10 02:42:49 Database closed
+2023/10/10 02:43:55 ----------- PROGRAM STARTED -----------
+2023/10/10 02:43:55 Loading .env file
+2023/10/10 02:43:55 Database in ./database/databases/database.db already exists
+2023/10/10 02:43:55 Loading .env file
+2023/10/10 02:43:55 Opening database file ./database/databases/database.db
+2023/10/10 02:43:55 Checking if table tasks exist
+2023/10/10 02:43:55 Database fully initialized!
+2023/10/10 02:43:55 Database closed
+2023/10/10 02:43:55 Loading .env file
+2023/10/10 02:43:55 Starting server on localhost:3000
+2023/10/10 02:43:57 API get tasks request
+2023/10/10 02:43:57 Loading .env file
+2023/10/10 02:43:57 Opening database file ./database/databases/database.db
+2023/10/10 02:43:57 Database closed
+2023/10/10 02:43:57 Tasks data converted to JSON
+2023/10/10 02:43:57 Sent JSON data
+2023/10/10 02:44:16 Loading .env file
+2023/10/10 02:44:16 Opening database file ./database/databases/database.db
+2023/10/10 02:44:16 Database closed
+2023/10/10 02:44:16 Loading .env file
+2023/10/10 02:44:16 Opening database file ./database/databases/database.db
+2023/10/10 02:44:16 Changing task with id 13 to true (tasks table)
+2023/10/10 02:44:16 Task succesfully updated
+2023/10/10 02:44:16 Database closed
+2023/10/10 02:44:19 API get tasks request
+2023/10/10 02:44:19 Loading .env file
+2023/10/10 02:44:19 Opening database file ./database/databases/database.db
+2023/10/10 02:44:19 Database closed
+2023/10/10 02:44:19 Tasks data converted to JSON
+2023/10/10 02:44:19 Sent JSON data
+2023/10/10 02:44:25 Loading .env file
+2023/10/10 02:44:25 Opening database file ./database/databases/database.db
+2023/10/10 02:44:25 Database closed
+2023/10/10 02:44:25 Loading .env file
+2023/10/10 02:44:25 Opening database file ./database/databases/database.db
+2023/10/10 02:44:25 Changing task with id 13 to false (tasks table)
+2023/10/10 02:44:25 Task succesfully updated
+2023/10/10 02:44:25 Database closed
+2023/10/10 02:44:27 Loading .env file
+2023/10/10 02:44:27 Opening database file ./database/databases/database.db
+2023/10/10 02:44:27 Database closed
+2023/10/10 02:44:27 Loading .env file
+2023/10/10 02:44:27 Opening database file ./database/databases/database.db
+2023/10/10 02:44:27 Changing task with id 13 to true (tasks table)
+2023/10/10 02:44:27 Task succesfully updated
+2023/10/10 02:44:27 Database closed
+2023/10/10 02:44:30 Loading .env file
+2023/10/10 02:44:30 Opening database file ./database/databases/database.db
+2023/10/10 02:44:30 Database closed
+2023/10/10 02:44:30 Loading .env file
+2023/10/10 02:44:30 Opening database file ./database/databases/database.db
+2023/10/10 02:44:30 Changing task with id 13 to false (tasks table)
+2023/10/10 02:44:30 Task succesfully updated
+2023/10/10 02:44:30 Database closed
+2023/10/10 02:44:33 API get tasks request
+2023/10/10 02:44:33 Loading .env file
+2023/10/10 02:44:33 Opening database file ./database/databases/database.db
+2023/10/10 02:44:33 Database closed
+2023/10/10 02:44:33 Tasks data converted to JSON
+2023/10/10 02:44:33 Sent JSON data
+2023/10/10 02:44:43 Loading .env file
+2023/10/10 02:44:43 Opening database file ./database/databases/database.db
+2023/10/10 02:44:43 Inserting tasktext123 to the tasks table
+2023/10/10 02:44:43 Task succesfully inserted
+2023/10/10 02:44:43 Database closed
+2023/10/10 02:44:53 API get tasks request
+2023/10/10 02:44:53 Loading .env file
+2023/10/10 02:44:53 Opening database file ./database/databases/database.db
+2023/10/10 02:44:53 Database closed
+2023/10/10 02:44:53 Tasks data converted to JSON
+2023/10/10 02:44:53 Sent JSON data
+2023/10/10 02:45:02 Loading .env file
+2023/10/10 02:45:02 Opening database file ./database/databases/database.db
+2023/10/10 02:45:02 Database closed
+2023/10/10 02:45:02 Loading .env file
+2023/10/10 02:45:02 Opening database file ./database/databases/database.db
+2023/10/10 02:45:02 Deleting task with id 13
+2023/10/10 02:45:02 Task succesfully deleted
+2023/10/10 02:45:02 Database closed
+2023/10/10 02:45:04 API get tasks request
+2023/10/10 02:45:04 Loading .env file
+2023/10/10 02:45:04 Opening database file ./database/databases/database.db
+2023/10/10 02:45:04 Database closed
+2023/10/10 02:45:04 Tasks data converted to JSON
+2023/10/10 02:45:04 Sent JSON data

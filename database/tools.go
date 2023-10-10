@@ -5,6 +5,8 @@ import (
 	"errors"
 
 	_ "github.com/mattn/go-sqlite3"
+
+	"gamch1k/todo/logs"
 )
 
 
@@ -25,31 +27,28 @@ func InsertTask(text string) (bool, error) {
 
 	query, err := db.Prepare(insert_text)
 	if err != nil {
-		log.SetPrefix("ERROR ")
-		log.Println(err.Error())
-		log.SetPrefix("")
+		logs.LogError(err)
 		return false, err
 	}
 	_, err = query.Exec(text)
 	if err != nil {
-		log.SetPrefix("ERROR ")
-		log.Println(err.Error())
-		log.SetPrefix("")
+		logs.LogError(err)
 		return false, err
 	}
 
 	log.Println("Task succesfully inserted")
-	return true, errors.New("")
+	return true, nil
 }
 
 
-func GetTasks() []Task {
+func GetTasks() ([]Task, error) {
 	db := OpenDatabase()
 	defer CloseDatabase(db)
 
 	row, err := db.Query("SELECT * FROM tasks")
 	if err != nil {
-		log.Fatal(err.Error())
+		logs.LogError(err)
+		return []Task{}, err
 	}
 
 	defer row.Close()
@@ -70,11 +69,11 @@ func GetTasks() []Task {
 		})
 	}
 
-	return final
+	return final, nil
 }
 
 
-func GetTaskById(id int) Task {
+func GetTaskById(id int) (Task, error) {
 	db := OpenDatabase()
 	defer CloseDatabase(db)
 
@@ -83,32 +82,34 @@ func GetTaskById(id int) Task {
 	rows, err := db.Query("SELECT * FROM tasks WHERE task_id = ?", id)
 
 	if err != nil {
-		log.Fatal(err.Error())
+		logs.LogError(err)
+		return Task{}, err
 	}
 
 	for rows.Next() {
 		rows.Scan(&task.Id, &task.Text, &task.Done)
 	}
 
-	return task
+	return task, nil
 	
 }
 
 
-func CheckTaskExist(id int) bool {
-	res := GetTaskById(id)
+func CheckTaskExist(id int) (bool, error) {
+	res, err := GetTaskById(id)
 	
 	if res.Id == 0 {
 		log.Printf("Task with id %d does not exist", id)
 	}
 
-	return res.Id != 0
+	return res.Id != 0, err
 }
 
 
 func UpdateTaskDone(id int, status bool) (bool, error) {
 
-	if !CheckTaskExist(id) { return false, errors.New("") }
+	exists, _ := CheckTaskExist(id)
+	if !exists { return false, nil }
 
 	db := OpenDatabase()
 	defer CloseDatabase(db)
@@ -119,26 +120,23 @@ func UpdateTaskDone(id int, status bool) (bool, error) {
 
 	query, err := db.Prepare(query_text)
 	if err != nil {
-		log.SetPrefix("ERROR ")
-		log.Println(err.Error())
-		log.SetPrefix("")
+		logs.LogError(err)
 		return false, err
 	}
 	_, err = query.Exec(status, id)
 	if err != nil {
-		log.SetPrefix("ERROR ")
-		log.Println(err.Error())
-		log.SetPrefix("")
+		logs.LogError(err)
 		return false, err
 	}
 
 	log.Println("Task succesfully updated")
-	return true, errors.New("")
+	return true, nil
 }
 
 func DeleteTaskById(id int) (bool, error) {
 
-	if !CheckTaskExist(id) { return false, errors.New("Task does not exists") }
+	exists, _ := CheckTaskExist(id)
+	if !exists { return false, errors.New("Task does not exists") }
 
 	db := OpenDatabase()
 	defer CloseDatabase(db)
@@ -149,19 +147,15 @@ func DeleteTaskById(id int) (bool, error) {
 
 	query, err := db.Prepare(query_text)
 	if err != nil {
-		log.SetPrefix("ERROR ")
-		log.Println(err.Error())
-		log.SetPrefix("")
+		logs.LogError(err)
 		return false, err
 	}
 	_, err = query.Exec(id)
 	if err != nil {
-		log.SetPrefix("ERROR ")
-		log.Println(err.Error())
-		log.SetPrefix("")
+		logs.LogError(err)
 		return false, err
 	}
 
 	log.Println("Task succesfully deleted")
-	return true, errors.New("")
+	return true, nil
 }

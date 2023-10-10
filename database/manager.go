@@ -9,7 +9,7 @@ import (
 
 	_ "github.com/mattn/go-sqlite3"
 
-	env_manager "gamch1k.org/todo/envmanager"
+	env_manager "gamch1k/todo/envmanager"
 )
 
 

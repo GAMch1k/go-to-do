@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"gamch1k.org/todo/database"
+	"gamch1k/todo/database"
 )
 
 type JSONtasks struct {
@@ -25,9 +25,19 @@ type ResponseStatus struct {
 func api_get_tasks(w http.ResponseWriter, r *http.Request) {
 	log.Println("API get tasks request")
 
-	tasks_arr := database.GetTasks()
+	tasks_arr, err := database.GetTasks()
 
-	log.Println(tasks_arr)
+	if err != nil {
+		status := ResponseStatus{
+			Status: 400,
+			Success: false,
+			Error_msg: "something wrong with getting tasks: " + err.Error(),
+		}
+
+		json_data, _ := json.Marshal(status)
+		io.WriteString(w, string(json_data))
+		return
+	}
 
 	json_data, _ := json.Marshal(tasks_arr)
 
@@ -78,7 +88,19 @@ func api_update_task(w http.ResponseWriter, r *http.Request) {
 	var status ResponseStatus
 
 	if id != "" && complete != "" {
-		id_int, _ := strconv.Atoi(id)
+		id_int, err := strconv.Atoi(id)
+
+		if err != nil {
+			status := ResponseStatus{
+				Status: 400,
+				Success: false,
+				Error_msg: "something wrong with converting id field: " + err.Error(),
+			}
+			json_data, _ := json.Marshal(status)
+			io.WriteString(w, string(json_data))
+			return
+		}
+
 		var status_bool bool
 		if complete == "true" {
 			status_bool = true
@@ -122,7 +144,17 @@ func api_delete_task(w http.ResponseWriter, r *http.Request) {
 	var status ResponseStatus
 
 	if id != "" {
-		id_int, _ := strconv.Atoi(id)
+		id_int, err := strconv.Atoi(id)
+		if err != nil {
+			status := ResponseStatus{
+				Status: 400,
+				Success: false,
+				Error_msg: "something wrong with converting id field: " + err.Error(),
+			}
+			json_data, _ := json.Marshal(status)
+			io.WriteString(w, string(json_data))
+			return
+		}
 		res, err := database.DeleteTaskById(id_int)
 		
 		if res {
@@ -155,10 +187,10 @@ func api_delete_task(w http.ResponseWriter, r *http.Request) {
 
 
 func Start(port string) {
-	http.HandleFunc("/api/get_tasks", api_get_tasks)
-	http.HandleFunc("/api/post_task", api_post_task)
-	http.HandleFunc("/api/update_task", api_update_task)
-	http.HandleFunc("/api/delete_task", api_delete_task)
+	http.HandleFunc("/api/get_tasks", api_get_tasks)		// No parameters needed
+	http.HandleFunc("/api/post_task", api_post_task)		// text={text of the task} parameter
+	http.HandleFunc("/api/update_task", api_update_task)	// id={task_id}&status={bool} parameters 
+	http.HandleFunc("/api/delete_task", api_delete_task)	// id={task_id} parameter
 
 	log.Println("Starting server on", port)
 

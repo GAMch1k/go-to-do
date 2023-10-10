@@ -6,9 +6,9 @@ import (
 	"log"
 	"os"
 
-	"gamch1k.org/todo/database"
-	env_manager "gamch1k.org/todo/envmanager"
-	"gamch1k.org/todo/server"
+	"gamch1k/todo/database"
+	env_manager "gamch1k/todo/envmanager"
+	"gamch1k/todo/server"
 )
 
 

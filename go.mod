@@ -1,4 +1,4 @@
-module gamch1k.org/todo
+module gamch1k/todo
 
 go 1.21.1
 
