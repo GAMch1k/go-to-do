@@ -36,8 +36,7 @@ func main() {
 	// fmt.Println(database.CheckTaskExist(db_path, 25))
 	// database.DeleteTaskById(db_path, 7)
 
-	server.Start("localhost:" + env_manager.GetEnvVariable("PORT"))
-
+	server.Start(env_manager.GetEnvVariable("HOST_NAME") + ":" + env_manager.GetEnvVariable("PORT"))
 	
 }
 

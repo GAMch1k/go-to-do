@@ -1713,3 +1713,24 @@ ERROR 2023/10/10 02:33:30 near "INOT": syntax error
 2023/10/10 02:45:04 Database closed
 2023/10/10 02:45:04 Tasks data converted to JSON
 2023/10/10 02:45:04 Sent JSON data
+2023/10/10 02:56:12 ----------- PROGRAM STARTED -----------
+2023/10/10 02:56:12 Loading .env file
+2023/10/10 02:56:12 Database in ./database/databases/database.db already exists
+2023/10/10 02:56:12 Loading .env file
+2023/10/10 02:56:12 Opening database file ./database/databases/database.db
+2023/10/10 02:56:12 Checking if table tasks exist
+2023/10/10 02:56:12 Database fully initialized!
+2023/10/10 02:56:12 Database closed
+2023/10/10 02:56:12 Loading .env file
+2023/10/10 02:56:12 Starting server on localhost:3000
+2023/10/10 03:11:54 ----------- PROGRAM STARTED -----------
+2023/10/10 03:11:54 Loading .env file
+2023/10/10 03:11:54 Database in ./database/databases/database.db already exists
+2023/10/10 03:11:54 Loading .env file
+2023/10/10 03:11:54 Opening database file ./database/databases/database.db
+2023/10/10 03:11:54 Checking if table tasks exist
+2023/10/10 03:11:54 Database fully initialized!
+2023/10/10 03:11:54 Database closed
+2023/10/10 03:11:54 Loading .env file
+2023/10/10 03:11:54 Loading .env file
+2023/10/10 03:11:54 Starting server on 0.0.0.0:3000
